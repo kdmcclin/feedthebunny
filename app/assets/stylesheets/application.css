@@ -13,14 +13,12 @@
  *= require_tree .
  *= require_self
  *= require foundation_and_overrides
-
- *= require foundation
  */
-
-body {
-	font-family: 'Karla', sans-serif;
-}
 
 .row {
 	text-align: center;
+}
+
+body {
+	background-image: url('/images/notebook.png');
 }
