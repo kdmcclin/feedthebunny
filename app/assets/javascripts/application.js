@@ -15,4 +15,15 @@
 //= require foundation
 //= require_tree .
 
-$(function(){ $(document).foundation(); });
+$(function(){ 
+	$(document).foundation(); 
+	$(".button").click(function(){
+		$("#prompt_space").empty();
+		$.ajax({
+			type: "GET",
+			url: "/get_prompts",
+		}).done(function(response) {
+			$("#prompt_space").html(response);
+		})
+	});
+});

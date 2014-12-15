@@ -22,3 +22,17 @@
 body {
 	background-image: url('/images/notebook.png');
 }
+
+#prompt_space {
+	background-color: rgba(207,207,98,.5);
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.button p {
+	padding-top: 20px;
+}
+
+.round p {
+	padding-top: 20px;
+}
