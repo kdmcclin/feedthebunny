@@ -18,7 +18,7 @@
 $(function(){ 
 	$(document).foundation(); 
 	$(".button").click(function(){
-		$("#prompt_space").empty();
+		$("#prompt_space").text();
 		$.ajax({
 			type: "GET",
 			url: "/get_prompts",
