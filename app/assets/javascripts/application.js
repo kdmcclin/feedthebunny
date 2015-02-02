@@ -22,8 +22,10 @@ $(function(){
 		$.ajax({
 			type: "GET",
 			url: "/get_prompts",
+			dataType: 'json'
 		}).done(function(response) {
-			$("#prompt_space").html(response);
+			console.log(response)
+			$("#prompt_space").html(response["text"]);
 		})
 	});
 });
