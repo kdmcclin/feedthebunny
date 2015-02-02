@@ -18,7 +18,6 @@
 $(function(){ 
 	$(document).foundation(); 
 	$(".button").click(function(){
-		event.preventDefault();
 		$("#prompt_space").text();
 		$.ajax({
 			type: "GET",
