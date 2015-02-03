@@ -34,6 +34,7 @@ Prompt.create!([
   {text: "every-goddamn-store-is-out-of-candy-time-to-mooch-off-my-hot-neighbor halloween"},
   {text: "me and my roommate decided to decorate our house for halloween but got really into it, and ended up re-enacting several scenes from nightmare on elm street so loud the neighbours called the police to investigate screams"},
   {text: "i was unaware that there was an organized zombie crawl going on and i didn't realize you were in a costume and i screamed in your face because i truly thought i was facing a zombie invasion"},
+  {text: "Haunted House where they are strangers who are with their friends walking through and end up clutching each other until they were out"},
   #wedding/engagement (-6, id 6)
   {text: "i jokingly told you that the only way i’d marry you was if you did this weird outlandish thing, and you actually did it, and i’m kind of charmed"},
   {text: "this is probably a bad time, but marry me?"},
@@ -45,6 +46,7 @@ Prompt.create!([
   {text: "we accidentally got married in vegas oops"},
   {text: "accidentally crashed this wedding, but hey you’re pretty cute"},
   {text: "i was deliberately not invited to this wedding so im crashing it anyways, even if that means the angry hot maid of honor is going to murder me"},
+  {text: "inapropriately timed proposals"},
   {text: "you’re the hot stripper at my friend’s bachelor(ette) party"},
   {text: "hey i’m the best man, you’re a bridesmaid, let’s do this thing?"},
   {text: "i know im supposed to be your best man/maid of honor, but maybe i should mention now that i’m in love with you"}, 
@@ -153,6 +155,8 @@ Prompt.create!([
   {text: "that stupid thing i dared you to do sent you to the hospital"},
   #superhero (-18, id 18)
   {text: "we’re superheroes that got drunk last night oh god what’d we do"},
+  {text: "Waiting behind you in line but ‘excuse you me did I just hear you talking shit about my favorite superhero there SON’"},
+  {text: "rival superheros who are trying to protect the same small city"},
   #parties (-19, id 19)
   {text: "mutual friends always dragged to the same inane barbecues"},
   {text: "no-one-at-this-party-knows-how-to-buy-wine-let’s-go-on-a-wine-run-fellow-enthusiast-stranger"},
@@ -165,10 +169,12 @@ Prompt.create!([
   {text: "ended up adopting like three dogs because that pet shelter employee is really hot"},
   {text: "you’re the crazy cat person next door and your cats keep on wandering into my yard"},
   {text: "vet clinic"},
+  {text: "You came to look at the puppies I have for sale and you’re so into it that I can’t help but kneel down and help you assess them"},
   #shops (-21, id 21)
   {text: "got a crush on the hairdresser and now my hair is slowly getting really short"},
   {text: "ended up adopting like three dogs because that pet shelter employee is really hot"},
   {text: "last-of-an-item/this-is-the-PERFECT-turkey/pumpkin/terrible-thrift-store-sweater/etc"},
+  {text: "rival ice cream trucks"},
   #bookstore (-22, id 21, id 22)
   {text: "i accidentally feel asleep in the bookstore you work in cause i read so much"},
   {text: "we both tried to grab the last copy of that book in the shop"},
@@ -176,6 +182,7 @@ Prompt.create!([
   {text: "chef and waiter"},
   {text: "forced to share a table at the coffee shop a couple days in a row because crowded coffee shop and no room"},
   {text: "i purposely get your coffee order wrong just so you’ll talk to me again"},
+  {text: "Eating in the same diner every morning and the waitress ALWAYS mixes up our orders so why don’t we just sit at the same table to save her the trouble."},
   #sex industry (-24, id 21, id 24)
   {text: "accidentally called a sex line"},
   #grocery store (-25, id 21, id 25)
@@ -186,6 +193,8 @@ Prompt.create!([
   {text: "I rented the apartment above your flower shop and in the last two months you’ve gotten a new flower I’m allergic to so I keep buying bouquets until I can figure out which kind it is"},
   #bar (-27, id 21, id 27)
   {text: "new bartender at my favorite bar is unfairly attractive"},
+  {text: "met you at a bar but it turns out you’re a soldier and you’re getting shipped into combat tomorrow"},
+  {text: "The only two people at a bar rooting for the same sports team"},
   #bakery (-28, id 21, id 28)
   {text: "the-customer-wants-a-really-odd/passive-aggressive/insulting-message-on-their-cake baker"},
   #fandom (-29, id 29)
@@ -208,6 +217,16 @@ Prompt.create!([
   {text: "met at a ren faire"},
   {text: "camping in the same area"},
   {text: "met at a card game competition"},
+  {text: "at the movies as the only two people in the theater"},
+  {text: "I’m having a shit day and you just crashed into my car so I was gonna give you hell but wow you’re really hot"},
+  {text: "you were getting your film developed at the 24-hour photo that I work at, and I tried not to blush when I saw the semi-nude photographs of you on the film"},
+  {text: "there’s a long ass train and we’ve been waiting for it to pass for twenty minutes and you’re leaning out of the window of your car yelling at it so I’ll make some polite conversation."},
+  {text: "I’m somewhere past drunk and decidedly lost and you’re a kindly local on a nighttime outing"},
+  {text: "Waiting in a holding cell together for our friends to bail us out and you’re unexpectedly cool"},
+  {text: "I come here when I want to be alone and I didn’t think anyone knew about it, so where the hell did you come from?"},
+  {text: "It started as one game of DDR in a games arcade/convention and turned into a two hour long battle and I wont let you win!"},
+  {text: "Seeing love interest in formal wear for the first time whaaat"},
+  {text: "posted a joke ad in the classifieds but someone actually responded"},
   #business/professions (-32, id 32)
   {text: "i should not be this attracted to the new intern"},
   {text: "one night stand before the first day of your new job and oops that was your new boss you were sleeping with"},
@@ -217,7 +236,7 @@ Prompt.create!([
   {text: "rescuing their partner from a recon mission gone wrong"},
   {text: "my new fbi partner/consultant is really hot"},
   {text: "detective partners"},
-  {text: "police procedural"}
+  {text: "police procedural"},
   #apocalypse (-33, id 34)
   {text: "being reunited after surviving the zombie apocalypse unknowing if the other was alive or dead"},
   {text: "this is the end of the world and we're all we've got"},
@@ -231,6 +250,8 @@ Prompt.create!([
   {text: "we were both working during the holidays but got snowed in at the office"},
   #rain (-37, id 38)
   {text: "It’s raining and u forgot your umbrella so come over and stand under mine while we wait for the bus"},
+  {text: "It was raining so hard I wasn’t paying attention as I ran into you but were both drenched now and also hey there."},
+  {text: "you turned up at my door sopping wet and i dont know what else to do"},
   #paranormal (-38, id 39)
   {text: "i’m a ghost and you’re a ghost hunter"},
   {text: "this ghost led me to you"},
@@ -238,6 +259,7 @@ Prompt.create!([
   {text: "I was singing in public and you decided to join in and now we’re singing a dramatic duet together also what’s your number"},
   {text: "we have to sing a duet together but i hate you"},
   {text: "you’re singing my favorite song but you’re singing it wrong"},
+  {text: "you know you’re singing to your headphones out loud, right"},
   #summer camp (-40, id 41)
   {text: "lifeguards at a summer camp"},
   {text: "camp counselors at the same sleep away camp"},
@@ -251,8 +273,10 @@ Prompt.create!([
   {text: "incredibly long crosscountry train ride"},
   {text: "stuck-in-an-airport-because-the-flights-were-SO-VERY-delayed-and-it’s-like-two-am"},
   {text: "hurricane during a beach trip"},
+  {text: "gave a running hug to the wrong person at the airport and knocked you to the ground"},
   #magic (-43, id 44)
   {text: "Hogwarts"},
+  {text: "wizard accidentally appears in the wrong house"},
   #family (-44, id 45)
   {text: "you’re my siblings’s best friend and i absolutely hate you but pretend to be my boy/girlfriend to piss off my family"},
   {text: "my new best friend’s sibling is so hot"},
@@ -263,12 +287,21 @@ Prompt.create!([
   {text: "pseudo-adopting-the-runaway-i-ran-into"},
   {text: "kids go to the same school"},
   {text: "little kids getting way too caught up in make-believe"},
+  {text: "Little league coach and one of the parents fall in love"},
   #winter (-45, id 46)
+  {text: "we were skiing/snowboarding and got on the same lift and now the lift is stuck"},
   #spring (-46, id 47)
   #summer (-47, id 48)
   #fall/autumn (-48, id 49)
   {text: "i got caught staring at my adult neighbour raking up a bunch of leaves in their backyard and jumping into them and now have to awkwardly pretend i saw nothing"},
   {text: "met at a pumpkin patch fighting over the same perfectly round and picturesque pumpkin"},
   {text: "i ordered a pumpkin spice latte at starbucks and you made a heart with the foam and i decided to drink it here so i can smile at you some more"},
-  {text: "this stranger on the street corner looks like they're severely unprepared for this cold weather, here, take my scarf, i was planning on donating it to goodwill anyways"}
+  {text: "this stranger on the street corner looks like they're severely unprepared for this cold weather, here, take my scarf, i was planning on donating it to goodwill anyways"},
+  #neighbors (-49, id 50)
+  {text: "Why does my shitty neighbor keep using my WiFi? .”Then you shouldn’t have made the password a dumb Lord of the Rings reference.’"},
+  {text: "you just moved into my building, so I’m gonna bring you something you probably already have just so I can meet you"},
+  {text: "My neighbor’s sister got the wrong house number and barged into my apartment."},
+  {text: "Neighbors in a shitty apartment building that share a sense of solidarity for each other"},
+  #technology (-50, id 51)
+  {text: "i keep calling tech support because you’re helpful and also your voice is really cute"},
 ])

@@ -47,5 +47,7 @@ Category.create!([
   {label: "winter"},
   {label: "spring"},
   {label: "summer"},
-  {label: "fall/autumn"}
+  {label: "fall/autumn"},
+  {label: "neighbors"},
+  {label: "technology"}
 ])
