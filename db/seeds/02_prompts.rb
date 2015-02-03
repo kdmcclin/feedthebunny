@@ -2,6 +2,7 @@ Prompt.create!([
   #mythical creatures (-2, id 1)
   {text: "mermaids"},
   {text: "we’ve been dating for three months and you’re only now telling me you’re a werewolf"},
+  {text: "i’m a fisherman and you’re a mermaid who got tangled in one of my nets"},
   #Chanukah (-3, id 2, id 3)
   {text: "I accidentally set the kitchen on fire frying things and you are an attractive firefighter."},
   {text: "What do you mean you’ve never played strip dreidel LET ME INTRODUCE YOU TO THIS PERVERSION OF THE GAME"},
@@ -149,6 +150,7 @@ Prompt.create!([
   #hospital (-17, id 17)
   {text: "we both got in separate bar fights downtown and now we’re waiting in the ER comparing stories"},
   {text: "you have short term memory after your surgery - short term memory - surgery for your - no, short term memory - jesus christ stop asking"},
+  {text: "that stupid thing i dared you to do sent you to the hospital"},
   #superhero (-18, id 18)
   {text: "we’re superheroes that got drunk last night oh god what’d we do"},
   #parties (-19, id 19)
@@ -157,6 +159,7 @@ Prompt.create!([
   {text: "i'm pretending to be ur bff bc u looked VERY uncomfortable with that person at the bar hitting on u"},
   {text: "we’re the only sober ones right now"},
   {text: "hiding-in-the-kitchen-stress-eating-because-the-ex-is-at-this-party"},
+  {text: "accidentally swapped phones with someone at a party and don’t realize until their mom calls in the morning and you spend like three hours talking to this hilarious woman about life and when you go to her house to return her kid’s phone wow the kid is the really good kisser from the party last night"},
   #animals (-20, id 20)
   {text: "zookeepers"},
   {text: "ended up adopting like three dogs because that pet shelter employee is really hot"},
@@ -168,19 +171,104 @@ Prompt.create!([
   {text: "last-of-an-item/this-is-the-PERFECT-turkey/pumpkin/terrible-thrift-store-sweater/etc"},
   #bookstore (-22, id 21, id 22)
   {text: "i accidentally feel asleep in the bookstore you work in cause i read so much"},
+  {text: "we both tried to grab the last copy of that book in the shop"},
   #restaurant/coffee shop (-23, id 21, id 23)
   {text: "chef and waiter"},
   {text: "forced to share a table at the coffee shop a couple days in a row because crowded coffee shop and no room"},
+  {text: "i purposely get your coffee order wrong just so you’ll talk to me again"},
   #sex industry (-24, id 21, id 24)
   {text: "accidentally called a sex line"},
   #grocery store (-25, id 21, id 25)
   {text: "we reached for the last box of chicken nuggets in the supermarket at the same time and there’s no way I’m letting you have it asshole"},
   {text: "two strangers locked inside a grocery store at three am together"},
-
+  {text: "we’re both sick and we both grabbed for the last can of soup at the store"},
   #florist (-26, id 21, id 26)
   {text: "I rented the apartment above your flower shop and in the last two months you’ve gotten a new flower I’m allergic to so I keep buying bouquets until I can figure out which kind it is"},
   #bar (-27, id 21, id 27)
   {text: "new bartender at my favorite bar is unfairly attractive"},
   #bakery (-28, id 21, id 28)
   {text: "the-customer-wants-a-really-odd/passive-aggressive/insulting-message-on-their-cake baker"},
+  #fandom (-29, id 29)
+  {text: "wore the same obscure fandom shirt in public"},
+  {text: "dungeons and dragons"},
+  #convention (-30, id 29, id 30)
+  {text: "met at a con where we accidentally cosplayed the fandom otp PLOT TWIST it’s our notp but god damn I wouldn’t mind making out with you"},
+  {text: "we went to a con/party dressed as a couple on accident"},
+  {text: "cosplayed as the same character "},
+  {text: "got involved in a heated game of Smash Bros. at a con"},
+  #slice of life (-31, id 31)
+  {text: "street performers"},
+  {text: "tried to get the candy bar that didn’t drop out of the vending machine and now my hand is stuck can u help me out"},
+  {text: "met standing in the reallllllly long queue for the dressing rooms"},
+  {text: "you accidentally shipped this weird thing to my apartment"},
+  {text: "my roommate’s best friend is really obnoxious but also hot"},
+  {text: "the 5 cent hug for charity you offered me on the street really brought out our amazing chemistry"},
+  {text: "tree climbing contest but we both got stuck up on the top branches and now we have to wait for the fire department"},
+  {text: "sat next to each other on a roller coaster"},
+  {text: "met at a ren faire"},
+  {text: "camping in the same area"},
+  {text: "met at a card game competition"},
+  #business/professions (-32, id 32)
+  {text: "i should not be this attracted to the new intern"},
+  {text: "one night stand before the first day of your new job and oops that was your new boss you were sleeping with"},
+  {text: "parents are CEOs of rival companies"},
+  {text: "lawyers"},
+  #detective/cop/agent (-32, id 32, id 33)
+  {text: "rescuing their partner from a recon mission gone wrong"},
+  {text: "my new fbi partner/consultant is really hot"},
+  {text: "detective partners"},
+  {text: "police procedural"}
+  #apocalypse (-33, id 34)
+  {text: "being reunited after surviving the zombie apocalypse unknowing if the other was alive or dead"},
+  {text: "this is the end of the world and we're all we've got"},
+  #crime (-34, id 35)
+  {text: "are we both robbing the same house oh fuck"},
+  {text: "parents are heads of rival mob families"},
+  {text: "trapped in a bank during a robbery"},
+  {text: "i just committed a crime and i need to use you as a hostage i am so sorry"},
+  #weather (-35, id 36)
+  #snow (-36, id 37)
+  {text: "we were both working during the holidays but got snowed in at the office"},
+  #rain (-37, id 38)
+  {text: "It’s raining and u forgot your umbrella so come over and stand under mine while we wait for the bus"},
+  #paranormal (-38, id 39)
+  {text: "i’m a ghost and you’re a ghost hunter"},
+  {text: "this ghost led me to you"},
+  #music (-39, id 40)
+  {text: "I was singing in public and you decided to join in and now we’re singing a dramatic duet together also what’s your number"},
+  {text: "we have to sing a duet together but i hate you"},
+  {text: "you’re singing my favorite song but you’re singing it wrong"},
+  #summer camp (-40, id 41)
+  {text: "lifeguards at a summer camp"},
+  {text: "camp counselors at the same sleep away camp"},
+  #transit (-41, id 42)
+  {text: "we’re strangers but i absolutely hate your music taste and i feel the need to tell you this on a crowded subway"},
+  {text: "we’re the only ones in this subway car and the metro broke down"},
+  {text: "accidentally fell in your lap while standing on this crowded bus"},
+  {text: "ride the same bus together literally every day"},
+  #travel (-42, id 43)
+  {text: "you’ve been playing guitar in the hall of the hotel since three in the morning and i came down to tell you to shut the fuck up"},
+  {text: "incredibly long crosscountry train ride"},
+  {text: "stuck-in-an-airport-because-the-flights-were-SO-VERY-delayed-and-it’s-like-two-am"},
+  {text: "hurricane during a beach trip"},
+  #magic (-43, id 44)
+  {text: "Hogwarts"},
+  #family (-44, id 45)
+  {text: "you’re my siblings’s best friend and i absolutely hate you but pretend to be my boy/girlfriend to piss off my family"},
+  {text: "my new best friend’s sibling is so hot"},
+  {text: "childhood friends with adjoining houses/rooms"},
+  {text: "sent to live with cousins"},
+  {text: "pretending to be siblings because of reasons"},
+  {text: "teaming up to rescue respective abducted children"},
+  {text: "pseudo-adopting-the-runaway-i-ran-into"},
+  {text: "kids go to the same school"},
+  {text: "little kids getting way too caught up in make-believe"},
+  #winter (-45, id 46)
+  #spring (-46, id 47)
+  #summer (-47, id 48)
+  #fall/autumn (-48, id 49)
+  {text: "i got caught staring at my adult neighbour raking up a bunch of leaves in their backyard and jumping into them and now have to awkwardly pretend i saw nothing"},
+  {text: "met at a pumpkin patch fighting over the same perfectly round and picturesque pumpkin"},
+  {text: "i ordered a pumpkin spice latte at starbucks and you made a heart with the foam and i decided to drink it here so i can smile at you some more"},
+  {text: "this stranger on the street corner looks like they're severely unprepared for this cold weather, here, take my scarf, i was planning on donating it to goodwill anyways"}
 ])
