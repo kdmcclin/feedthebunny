@@ -23,11 +23,16 @@ Prompt.create!([
   {text: "you left your christmas tree lights on over night and set the apartment building on fire. hey i live on the floor below you"},
   {text: "you keep coming into the store i work at to buy wreaths, what are you doing with all of these wreaths?"},
   {text: "you were walking in front of me when you tripped over your own foot and knocked over the christmas tree in the park. let me help you up and we’ll try to fix the damage"},
+  {text: "our-housemates/families-keep-trying-to-one-up-each-other-with-lawn-decorations"},
+  {text: "greets-the-delivery-person-while-crying-and-drunk-because-you-can’t-go-home-for-the-holidays"},
   #Halloween (-5, id 2, id 5)
   {text: "your costume is the superhero to my villain"},
   {text: "there are strange noises and I don’t want to sleep alone"}, #maybe put this in paranormal instead?
   {text: "I’m sorry I scared you so much in that haunted house I work at; here have my water"},
   {text: "I’m sorry my younger sibling egged your house… and that I helped"},
+  {text: "every-goddamn-store-is-out-of-candy-time-to-mooch-off-my-hot-neighbor halloween"},
+  {text: "me and my roommate decided to decorate our house for halloween but got really into it, and ended up re-enacting several scenes from nightmare on elm street so loud the neighbours called the police to investigate screams"},
+  {text: "i was unaware that there was an organized zombie crawl going on and i didn't realize you were in a costume and i screamed in your face because i truly thought i was facing a zombie invasion"},
   #wedding/engagement (-6, id 6)
   {text: "i jokingly told you that the only way i’d marry you was if you did this weird outlandish thing, and you actually did it, and i’m kind of charmed"},
   {text: "this is probably a bad time, but marry me?"},
@@ -61,5 +66,121 @@ Prompt.create!([
   {text: "we’re planning a mutual friend’s wedding"},
   #frozen in time (-7, id 7)
   {text: "i’m a immortal who just woke up from a ‘nap’ what the fuck is this what the fuck is that "},
-  
+  #school (-8, id 8)
+  {text: "our prom dates just ditched us for each other let’s show them what they’re missing out on"},
+  {text: "Local teenage delinquent/Head of chastity club"},
+  {text: "you were my rival in first grade and damn you’ve gotten really hot since then"},
+  {text: "awkward teenage spin the bottle/seven minutes in heaven"},
+  {text: "forced lab partners"},
+  {text: "high school teachers "},
+  #teacher/librarian (-9, id 8, id 9)
+  {text: "language teachers who compete to see who can make each other more flustered in front of the class in the other language"},
+  {text: "i teach your child and we have very important meetings about their education"},
+  #boarding school (-10, id 8, id 10)
+  {text: "preppy boarding school, one of them is there on scholarship"},
+  #college/university/higher ed (-11, id 11)
+  {text: "drama school rivals being cast as romantic opposites because they have “crazy sexual tension” according to their director"},
+  {text: "we’re the only ones on campus who didn’t go home for christmas"},
+  {text: "can u help me sneak my cat into my dorm"},
+  {text: "accidentally got assigned the same library study room so I guess we’ll have to share for the semester"},
+  {text: 'you just joined the -sports team here- that i’m the captain of'},
+  {text: "I’m really passionate about this cause and I will give you this flier if I have to shove it down your throat"},
+  {text: "vicious battle over the only left handed desk in the room"},
+  {text: "my roommate’s boyfriend is staying over so can I please sleep on your floor"},
+  {text: "it’s pouring and my final paper is in my backpack so I guess we’re stuck under this tiny awning together. do you think they’d deliver pizza here"},
+  {text: "hey I have to photograph someone for class will you be my model"},
+  {text: "hey I have to take someone’s blood pressure for class will you be my victim"},
+  {text: "it’s 3 am and I’m still in the library studying for finals and I’m losing my grip on reality and I think I just saw a ghost"},
+  {text: "we’re the only people who ever talk in discussions it’s awful"},
+  {text: "this awesome professor only has one TA slot and we’re rivals"},
+  {text: "I found your USB drive still in the computer"},
+  {text: "I thought I was the only one who liked the waffle station in the cafeteria"},
+  {text: "you keep reserving the good study room in the corner of the library with the windows"},
+  {text: "we’re studying in the library and there are two people very obviously fucking in the stacks and we keep sharing embarrassed glances"},
+  {text: "we’re both donating blood in the blood donation van in the quad to get out of the same class"},
+  {text: "you decked me in the head while you were playing frisbee golf"},
+  {text: "wait, I actually have a competent lab partner?"},
+  {text: "you’re the RA and you’re trying to bust me for having hermit crabs"},
+  {text: "you’re baking cookies in the communal kitchen at 3am and I’m angry but also really hungry"},
+  {text: "what are you doing at this table at the career fair"},
+  {text: "waiting for office hours"},
+  {text: "I’ve been sitting in this seat all semester why did you decide to sit in it today"},
+  {text: "You peed on my car. You were drunk. I was in the car. There will be hell to pay."},
+  {text: "We started racing up the three flights of stairs to class for some reason and we can’t stop"},
+  {text: "You’re REALLY GOOD at using the right search terms for the academic databases and I’m on a deadline"},
+  {text: "my friend dragged me to this party and I just saw my ex quick make out with me"},
+  {text: "we’re always at the fitness center at the same time and end up competing on the treadmill"},
+  {text: "sorry my roommate puked on your shoes"},
+  {text: "can I borrow a dryer sheet? I ran out and the ones in the vending machine give me a rash"},
+  {text: "your school mailbox is right next to mine"},
+  {text: "I saw you sneaking captain crunch and cutlery out of the dining hall"},
+  {text: "My roommate borrowed your contraband hotpot and managed to set it on fire"},
+  {text: "You keep using my preferred shower stall in the floor bathrooms when I’m trying to get ready for class"},
+  {text: "My computer crashed and you’re the student worker at the IT center"},
+  {text: "we’re both on althetic teams that aren’t as cool as the football team and they give us shit"},
+  {text: "You’re part of the guerrilla theater club on campus and crashed my class for a performance"},
+  {text: "What do you mean we’re under a tornado warning?"},
+  {text: "on the same college tour"},
+  {text: "got locked out of dorm room"},
+  {text: "medical school"},
+  #professor (-12, id 11, id 12)
+  {text: "college professors"},
+  #classics (-13, id 11, id 13)
+  {text: "taking a course on a love elegist the same semester you discovered your sexuality"},
+  {text: "Help I missed class can you lend me your notes on Martial' (2 hours later) 'that’s actually what that word means?!?"},
+  {text: "Complaining about how high school students/incoming freshman think Catullus 16 is the epitome of dirty Latin and you both start quoting your own favorite passages and it escalates"},
+  {text: "We’re both too poor to buy that textbook so now we’re fighting over the sole course reserve copy"},
+  {text: "the euphemisms in old Loeb editions aka “um does ‘yard’ mean penis here”"},
+  {text: "Group study of some not-safe-for-work-if-this-weren’t-classics topic"},
+  {text: "You left the computer lab without logging off and I saw your Priapus fiction and I actually found it kinda hot"},
+  {text: "Trapped in an archeological site/accidentally locked into Special Collections together"},
+  {text: "Trying to decipher marginalia together and it turns out to be something explicit"},
+  {text: "Passing notes because bored in a required history class on the language you don’t specialize in"},
+  {text: "Class got cancelled but no one got the email because the college’s spam filter thinks the Greek quotation in the professor’s email signature is a virus"},
+  {text: "Greek play, possibly involving toga mishaps"},
+  {text: "Roleplay in Latin, bonus for sexy mistranslations"},
+  {text: "Five-hour argument on etymology until suddenly that’s not what it’s about anymore"},
+  #mythology (-14, id 14)
+  {text: "Greek deity falls for a human"},
+  #assassins (-15, id 15)
+  {text: "your partner hired me to kill you but they’re an asshole so let’s make out instead"},
+  #spies (-16, id 16)
+  {text: "rival clandestine spies"},
+  #hospital (-17, id 17)
+  {text: "we both got in separate bar fights downtown and now we’re waiting in the ER comparing stories"},
+  {text: "you have short term memory after your surgery - short term memory - surgery for your - no, short term memory - jesus christ stop asking"},
+  #superhero (-18, id 18)
+  {text: "we’re superheroes that got drunk last night oh god what’d we do"},
+  #parties (-19, id 19)
+  {text: "mutual friends always dragged to the same inane barbecues"},
+  {text: "no-one-at-this-party-knows-how-to-buy-wine-let’s-go-on-a-wine-run-fellow-enthusiast-stranger"},
+  {text: "i'm pretending to be ur bff bc u looked VERY uncomfortable with that person at the bar hitting on u"},
+  {text: "we’re the only sober ones right now"},
+  {text: "hiding-in-the-kitchen-stress-eating-because-the-ex-is-at-this-party"},
+  #animals (-20, id 20)
+  {text: "zookeepers"},
+  {text: "ended up adopting like three dogs because that pet shelter employee is really hot"},
+  {text: "you’re the crazy cat person next door and your cats keep on wandering into my yard"},
+  {text: "vet clinic"},
+  #shops (-21, id 21)
+  {text: "got a crush on the hairdresser and now my hair is slowly getting really short"},
+  {text: "ended up adopting like three dogs because that pet shelter employee is really hot"},
+  {text: "last-of-an-item/this-is-the-PERFECT-turkey/pumpkin/terrible-thrift-store-sweater/etc"},
+  #bookstore (-22, id 21, id 22)
+  {text: "i accidentally feel asleep in the bookstore you work in cause i read so much"},
+  #restaurant/coffee shop (-23, id 21, id 23)
+  {text: "chef and waiter"},
+  {text: "forced to share a table at the coffee shop a couple days in a row because crowded coffee shop and no room"},
+  #sex industry (-24, id 21, id 24)
+  {text: "accidentally called a sex line"},
+  #grocery store (-25, id 21, id 25)
+  {text: "we reached for the last box of chicken nuggets in the supermarket at the same time and there’s no way I’m letting you have it asshole"},
+  {text: "two strangers locked inside a grocery store at three am together"},
+
+  #florist (-26, id 21, id 26)
+  {text: "I rented the apartment above your flower shop and in the last two months you’ve gotten a new flower I’m allergic to so I keep buying bouquets until I can figure out which kind it is"},
+  #bar (-27, id 21, id 27)
+  {text: "new bartender at my favorite bar is unfairly attractive"},
+  #bakery (-28, id 21, id 28)
+  {text: "the-customer-wants-a-really-odd/passive-aggressive/insulting-message-on-their-cake baker"},
 ])
