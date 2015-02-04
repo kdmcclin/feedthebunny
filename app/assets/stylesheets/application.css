@@ -24,13 +24,18 @@ body {
 }
 
 #prompt_space {
-	background-color: rgba(207,207,98,.5);
+	background-color: rgba(207,207,98,.2);
 	border-radius: 10px;
 	margin-bottom: 10px;
 }
 
+.button {
+	background-color: rgba(207,207,98,.2) !important;
+}
+
 .button p {
 	padding-top: 20px;
+	color: black !important;
 }
 
 .round p {
