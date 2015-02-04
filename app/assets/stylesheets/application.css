@@ -19,6 +19,22 @@
 	text-align: center;
 }
 
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #166CEC;
+}
+
+a:hover{
+	color: #B5C6E0;
+}
+
+a:visited {
+	color: #36465D;
+}
+
 body {
 	background-image: url('/images/notebook.png');
 }
