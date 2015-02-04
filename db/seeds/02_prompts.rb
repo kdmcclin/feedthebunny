@@ -144,6 +144,7 @@ Prompt.create!([
   {text: "medical school"},
   {text: "unwilling participants in a prof’s teaching example"},
   {text: "My roommate and I go to different colleges and one day they forgot their phone so I rushed to their campus to give it to them and on the way back home I bumped into their hot professor who was frantically running to class and we really hit it off"},
+  {text: "I came home from college and didn’t know my parents were gone and had you house-sit"},
   #professor (-12, id 11, id 12)
   {text: "college professors"},
   #classics (-13, id 11, id 13)
@@ -363,6 +364,7 @@ Prompt.create!([
   #technology (-50, id 51)
   {text: "i keep calling tech support because you’re helpful and also your voice is really cute"},
   {text: "I keep accidentally on purpose breaking my laptop/phone/tablet so that you'll have to fix it.  My explanations for it get worse each time."},
+  {text: "I can’t believe you still listen to CDs let me help you digitize"},
   #locations (-51, id 52)
   #space (-52, id 52, id 53)
   {text: "in space"},
@@ -371,7 +373,8 @@ Prompt.create!([
   {text: "humanity has destroyed Earth and sets off in star ships to find a new inhabitable planet"},
   {text: "humanity's first contact with aliens"},
   #woods (-53, id 52, id 54)
-  {text: "both lost on separate hikes and meeting in the woods"}
+  {text: "both lost on separate hikes and meeting in the woods"},
+  {text: "I see you cut through my backyard and into the woods a lot so one day I decided to follow you and it turns out there’s a gorgeous cave back there"},
   #medieval (-54, id 55)
   {text: "Look, as the prince of this kingdom you have to accept that you’re getting married and as your best friend/servant/aide I’m helping you pick possible candidates so please stop writing my name down"},
   {text: "Each night, the forest rearranges itself. What happens when a weary traveler is caught in the shuffle, and emerges lost and confused the next day, without any memory?"},
