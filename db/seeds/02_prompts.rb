@@ -227,6 +227,7 @@ Prompt.create!([
   {text: "It started as one game of DDR in a games arcade/convention and turned into a two hour long battle and I wont let you win!"},
   {text: "Seeing love interest in formal wear for the first time whaaat"},
   {text: "posted a joke ad in the classifieds but someone actually responded"},
+  {text: "complete strangers who both happened to accidentally sit in the splash zone at the aquarium because our friends are assholes and told us we wouldn’t get wet"},
   #business/professions (-32, id 32)
   {text: "i should not be this attracted to the new intern"},
   {text: "one night stand before the first day of your new job and oops that was your new boss you were sleeping with"},
