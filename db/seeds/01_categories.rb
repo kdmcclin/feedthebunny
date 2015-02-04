@@ -5,7 +5,7 @@ Category.create!([
     {label: "Christmas"},
     {label: "Halloween"},
   {label: "wedding/engagement"},
-  {label: "frozen in time"},
+  {label: "a different time"},
   {label: "school"},
     {label: "teacher/librarian"},
     {label: "boarding school"},
@@ -20,7 +20,7 @@ Category.create!([
   {label: "parties"},
   {label: "animals"},
   {label: "shops"},
-    {label: "bookstore"},
+    {label: "bookstore/library"},
     {label: "restaurant/coffee shop"},
     {label: "sex industry"},
     {label: "grocery store"},
@@ -48,6 +48,10 @@ Category.create!([
   {label: "spring"},
   {label: "summer"},
   {label: "fall/autumn"},
-  {label: "neighbors"},
-  {label: "technology"}
+  {label: "neighbors/roommates"},
+  {label: "technology"},
+  {label: "locations"},
+    {label: "space"},
+  {label: "medieval"},
+  {label: "pirate"}
 ])
