@@ -90,13 +90,14 @@ Prompt.create!([
   {text: "you were my rival in first grade and damn you’ve gotten really hot since then"},
   {text: "awkward teenage spin the bottle/seven minutes in heaven"},
   {text: "forced lab partners"},
-  {text: "high school teachers "},
   #teacher/librarian (-9, id 8, id 9)
   {text: "language teachers who compete to see who can make each other more flustered in front of the class in the other language"},
   {text: "i teach your child and we have very important meetings about their education"},
   {text: "The English and Science departments of a small-town high school are bitter archrivals. The new biology teacher, however, doesn’t quite get the memo before his first few days on the job. Shenanigans ensue."},
+  {text: "we've been forced to go to this awful professional development meeting or retreat so let's get up to shenanigans"},
   #boarding school (-10, id 8, id 10)
   {text: "preppy boarding school, one of them is there on scholarship"},
+  {text: "I can't go home for (insert holiday/school break here) but your parents agreed to take me in"},
   #college/university/higher ed (-11, id 11)
   {text: "drama school rivals being cast as romantic opposites because they have “crazy sexual tension” according to their director"},
   {text: "we’re the only ones on campus who didn’t go home for christmas"},
@@ -147,6 +148,7 @@ Prompt.create!([
   {text: "I came home from college and didn’t know my parents were gone and had you house-sit"},
   #professor (-12, id 11, id 12)
   {text: "college professors"},
+  {text: "I'm trying to write my next scholarly article and you're hogging all the books I need"},
   #classics (-13, id 11, id 13)
   {text: "taking a course on a love elegist the same semester you discovered your sexuality"},
   {text: "Help I missed class can you lend me your notes on Martial' (2 hours later) 'that’s actually what that word means?!?"},
@@ -380,5 +382,5 @@ Prompt.create!([
   {text: "Each night, the forest rearranges itself. What happens when a weary traveler is caught in the shuffle, and emerges lost and confused the next day, without any memory?"},
   {text: "The plague swept through our little village and we're the only two who survived"},
   #pirate (-55, id 56)
-  {text: "Character A is a Commodore on a mission to capture Character B, one of the most ruthless pirates ever to sail on the seas. But when Character A is caught in a storm and Character B rescues him/her, Character A starts to wonder just how evil Character B really is."},
+  {text: "Character A is a Commodore on a mission to capture Character B, one of the most ruthless pirates ever to sail on the seas. But when Character A is caught in a storm and Character B rescues him/her, Character A starts to wonder just how evil Character B really is."}
 ])
