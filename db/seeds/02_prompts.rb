@@ -367,6 +367,8 @@ Prompt.create!([
   {text: "i keep calling tech support because you’re helpful and also your voice is really cute"},
   {text: "I keep accidentally on purpose breaking my laptop/phone/tablet so that you'll have to fix it.  My explanations for it get worse each time."},
   {text: "I can’t believe you still listen to CDs let me help you digitize"},
+  {text: "While mid hack character A discovers character B hacking the same site"},
+  {text: "character A is helping character B learn how to code"},
   #locations (-51, id 52)
   #space (-52, id 52, id 53)
   {text: "in space"},
@@ -374,13 +376,18 @@ Prompt.create!([
   {text: "Battlestar Galactica"},
   {text: "humanity has destroyed Earth and sets off in star ships to find a new inhabitable planet"},
   {text: "humanity's first contact with aliens"},
+  {text: "character A and character B are both residents of a space station and discover a conspiracy to try and bring it down"},
   #woods (-53, id 52, id 54)
   {text: "both lost on separate hikes and meeting in the woods"},
   {text: "I see you cut through my backyard and into the woods a lot so one day I decided to follow you and it turns out there’s a gorgeous cave back there"},
+  {text: "I was tapping a maple tree for syrup and discovered something hidden in the trunk"},
   #medieval (-54, id 55)
   {text: "Look, as the prince of this kingdom you have to accept that you’re getting married and as your best friend/servant/aide I’m helping you pick possible candidates so please stop writing my name down"},
   {text: "Each night, the forest rearranges itself. What happens when a weary traveler is caught in the shuffle, and emerges lost and confused the next day, without any memory?"},
   {text: "The plague swept through our little village and we're the only two who survived"},
+  {text: "Character A is a monk/priest/man of the church who is secretly a woman"},
   #pirate (-55, id 56)
-  {text: "Character A is a Commodore on a mission to capture Character B, one of the most ruthless pirates ever to sail on the seas. But when Character A is caught in a storm and Character B rescues him/her, Character A starts to wonder just how evil Character B really is."}
+  {text: "Character A is a Commodore on a mission to capture Character B, one of the most ruthless pirates ever to sail on the seas. But when Character A is caught in a storm and Character B rescues him/her, Character A starts to wonder just how evil Character B really is."},
+  {text: "character A disguises herself as a man in a pirate crew.  another pirate discovers her secret."},
+  {text: "character A disguises herself as a man in a pirate crew.  another pirate discovers her secret.  turns out that pirate's a disguised woman too."}
 ])
