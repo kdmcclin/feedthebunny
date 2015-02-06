@@ -16,6 +16,7 @@ Prompt.create!([
   {text: "This Chinese restaurant is so crowded on Christmas Eve do you mind if we share a table?"},
   {text: "You seriously want me to teach you how to knit, just to make ugly Chanukah sweaters and prove a point?"},
   {text: "I agree with you that Chanukah is a minor holiday that we’re only making a big deal out of because of cultural forces surrounding Christmas but since we’re already at this youth group party in the synagogue basement do you maybe want to dance?"},
+  {text: "I've never celebrated Chanukah before but you invited me and I couldn't say no."},
   #Christmas (-4, id 2, id 4)
   {text: "We both wore ugly sweaters to this christmas party because the invitation didn’t say it’s formal"},
   {text: "Our landlord really went all out with the mistletoe, huh?"},
@@ -38,6 +39,8 @@ Prompt.create!([
   {text: "We’re both volunteers at the holiday charity and somehow we’ve managed to turn donations for the less fortunate into a competition to see who could get the most donations"},
   {text: "You were the cashier giving me weird looks when I bought a ton of ugly Christmas jumpers so I told you they were for my grandma but you happened to be at a party I wore one to and you saw me"},
   {text: "I wanted to give you the twelve days of Christmas but YOU DIDNT TELL ME YOU'RE ALLERGIC TO FUCKING BIRDS"},
+  {text: "I've never really celebrated Christmas before.  Help me understand it."},
+  {text: "I've never celebrated Christmas before but even I think your family's tradition is really weird."},
   #Halloween (-5, id 2, id 5)
   {text: "Your costume is the superhero to my villain"},
   {text: "I'm sorry I scared you so much in that haunted house I work at--here have my water"},
@@ -47,6 +50,10 @@ Prompt.create!([
   {text: "I was unaware that there was an organized zombie crawl going on and I didn't realize you were in a costume and I screamed in your face because I truly thought I was facing a zombie invasion"},
   {text: "Haunted house where they are strangers who are with their friends walking through and end up clutching each other until they get out"},
   {text: "Accidentally scared a kid and their adult is angry"},
+  #Thanksgiving (-6, id 2, id 6)
+  {text: "Character A prepares a Thanksgiving meal for Character B, who's never had one before"},
+  {text: "I've never made a Thanksgiving dinner before but oh shit I volunteered and people are coming"},
+  {text: "Thanksgiving dinner from the perspective of the turkey"},
   #wedding/engagement (-6, id 6)
   {text: "I jokingly told you that the only way I’d marry you was if you did this weird outlandish thing, and you actually did it, and I'm kind of charmed"},
   {text: "This is probably a bad time, but marry me?"},
@@ -348,12 +355,14 @@ Prompt.create!([
   #spring (-46, id 47)
   {text: "Character A is spring and Character B is another season"},
   {text: "You're an employee at a gardening or landscape store and one of your customers is in the store all of the time asking questions because they have the worst black thumb"},
+  {text: "A world where spring has largely negative associations"},
   #summer (-47, id 48)
   {text: "I'm out picking berries with friends and this asshole keeps darting in and taking the juicy ones off of the bush I'm at"},
   {text: "Dude I know we don't know each other but my swim trunks came off when I jumped in the water can you grab them for me"},
   {text: "Country fair kissing booth"},
   {text: "We were total strangers before we entered this watermelon seed spitting contest but now we're getting really competitive"},
   {text: "Character A is summer and Character B is another season"},
+  {text: "summer bonfire or s'mores"},
   #fall/autumn (-48, id 49)
   {text: "I got caught staring at my adult neighbour raking up a bunch of leaves in their backyard and jumping into them and now have to awkwardly pretend I saw nothing"},
   {text: "Met at a pumpkin patch fighting over the same perfectly round and picturesque pumpkin"},
@@ -391,6 +400,7 @@ Prompt.create!([
   {text: "Both lost on separate hikes and meeting in the woods"},
   {text: "I see you cut through my backyard and into the woods a lot so one day I decided to follow you and it turns out there’s a gorgeous cave back there"},
   {text: "I was tapping a maple tree for syrup and discovered something hidden in the trunk"},
+  {text: "A hiker or group gets lost on a trail and has to survive using only what's available around them"},
   #medieval (-54, id 55)
   {text: "Look, as the prince of this kingdom you have to accept that you’re getting married and as your best friend/servant/aide I'm helping you pick possible candidates so please stop writing my name down"},
   {text: "Each night, the forest rearranges itself. What happens when a weary traveler is caught in the shuffle, and emerges lost and confused the next day, without any memory?"},
