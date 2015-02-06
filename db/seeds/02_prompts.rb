@@ -340,17 +340,27 @@ Prompt.create!([
   {text: "We were skiing/snowboarding and got on the same lift and now the lift is stuck"},
   {text: "I'm out shovelling my driveway during/after a blizzard and you glide by on your cross-country skis."},
   {text: "I was having a snowball fight outside and you were casually walking by and oh my god I'm so sorry I accidentally nailed you in the face"},
+  {text: "One of your characters is hot on the trail of a murderer who leaves clues that relate to the snow. For instance, for every kill he leaves a cut out snowflake. He kills his victims with an icicle.  Or perhaps your character is the murderer?"},
+  {text: "Someone finds a child in the snow next to a frozen lake. She has no idea how she got there and needs to find her way home."},
+  {text: "The world has been stuck in an eternal winter for as long as anyone can remember."},
+  {text: "It was then you realized that hell was winter, and you were in love with it."},
+  {text: "Character A is winter and Character B is another season"},
   #spring (-46, id 47)
+  {text: "Character A is spring and Character B is another season"},
+  {text: "You're an employee at a gardening or landscape store and one of your customers is in the store all of the time asking questions because they have the worst black thumb"},
   #summer (-47, id 48)
   {text: "I'm out picking berries with friends and this asshole keeps darting in and taking the juicy ones off of the bush I'm at"},
   {text: "Dude I know we don't know each other but my swim trunks came off when I jumped in the water can you grab them for me"},
   {text: "Country fair kissing booth"},
   {text: "We were total strangers before we entered this watermelon seed spitting contest but now we're getting really competitive"},
+  {text: "Character A is summer and Character B is another season"},
   #fall/autumn (-48, id 49)
   {text: "I got caught staring at my adult neighbour raking up a bunch of leaves in their backyard and jumping into them and now have to awkwardly pretend I saw nothing"},
   {text: "Met at a pumpkin patch fighting over the same perfectly round and picturesque pumpkin"},
   {text: "I ordered a pumpkin spice latte at starbucks and you made a heart with the foam and I decided to drink it here so I can smile at you some more"},
   {text: "This stranger on the street corner looks like they're severely unprepared for this cold weather, here, take my scarf, I was planning on donating it to goodwill anyways"},
+  {text: "Character A is autumn and Character B is another season"},
+  {text: "I woke up in a pile of leaves and I have no idea how I got here"},
   #neighbors/roommates (-49, id 50)
   {text: "Why does my shitty neighbor keep using my WiFi? .”Then you shouldn’t have made the password a dumb Lord of the Rings reference.’"},
   {text: "You just moved into my building, so I'm gonna bring you something you probably already have just so I can meet you"},
