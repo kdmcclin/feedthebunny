@@ -344,41 +344,41 @@ Prompt.create!([
   #summer (-47, id 48)
   {text: "I'm out picking berries with friends and this asshole keeps darting in and taking the juicy ones off of the bush I'm at"},
   {text: "Dude I know we don't know each other but my swim trunks came off when I jumped in the water can you grab them for me"},
-  {text: "country fair kissing booth"},
-  {text: "we were total strangers before we entered this watermelon seed spitting contest but now we're getting really competitive"},
+  {text: "Country fair kissing booth"},
+  {text: "We were total strangers before we entered this watermelon seed spitting contest but now we're getting really competitive"},
   #fall/autumn (-48, id 49)
-  {text: "i got caught staring at my adult neighbour raking up a bunch of leaves in their backyard and jumping into them and now have to awkwardly pretend i saw nothing"},
-  {text: "met at a pumpkin patch fighting over the same perfectly round and picturesque pumpkin"},
-  {text: "i ordered a pumpkin spice latte at starbucks and you made a heart with the foam and i decided to drink it here so i can smile at you some more"},
-  {text: "this stranger on the street corner looks like they're severely unprepared for this cold weather, here, take my scarf, i was planning on donating it to goodwill anyways"},
+  {text: "I got caught staring at my adult neighbour raking up a bunch of leaves in their backyard and jumping into them and now have to awkwardly pretend I saw nothing"},
+  {text: "Met at a pumpkin patch fighting over the same perfectly round and picturesque pumpkin"},
+  {text: "I ordered a pumpkin spice latte at starbucks and you made a heart with the foam and I decided to drink it here so I can smile at you some more"},
+  {text: "This stranger on the street corner looks like they're severely unprepared for this cold weather, here, take my scarf, I was planning on donating it to goodwill anyways"},
   #neighbors/roommates (-49, id 50)
   {text: "Why does my shitty neighbor keep using my WiFi? .”Then you shouldn’t have made the password a dumb Lord of the Rings reference.’"},
-  {text: "you just moved into my building, so I'm gonna bring you something you probably already have just so I can meet you"},
+  {text: "You just moved into my building, so I'm gonna bring you something you probably already have just so I can meet you"},
   {text: "My neighbor’s sister got the wrong house number and barged into my apartment."},
   {text: "Neighbors in a shitty apartment building that share a sense of solidarity for each other"},
   {text: "So YOU'RE the douchebag who keeps mowing their lawn while I'm trying to sleep"},
-  {text: "i got up at 2 am to get some snacks at the convenience store down the street and opened my door to find you trying to sleep on the floor of the hallway because your roommate has his fiancée over so i guess i’ll lend you my couch for the night"},
-  {text: "my stupid cat sneaked out on the balcony and into your open window and he has this habit of destroying furniture and pissing everywhere so i followed him inside and you came home earlier than i expected and found me in the middle of your living room but i swear I'm not a burglar ok"},
-  {text: "my best mate somehow fucked up my tv and tonight is the season premiere of this show i really really like and no livestream will work on my computer so will you please let me watch it on your tv i promise i’ll go back to my flat once it’s over"},
-  {text: "I know you steal my wifi to watch porn but its kinda hot"},
+  {text: "I got up at 2 am to get some snacks at the convenience store down the street and opened my door to find you trying to sleep on the floor of the hallway because your roommate has his fiancée over so I guess I’ll lend you my couch for the night"},
+  {text: "My stupid cat sneaked out on the balcony and into your open window and he has this habit of destroying furniture and pissing everywhere so I followed him inside and you came home earlier than I expected and found me in the middle of your living room but I swear I'm not a burglar ok"},
+  {text: "My best mate somehow fucked up my tv and tonight is the season premiere of this show I really really like and no livestream will work on my computer so will you please let me watch it on your tv I promise I’ll go back to my flat once it’s over"},
+  {text: "I know you steal my wifi to watch porn but it's kinda hot"},
   {text: "Our flats are opposite each other and your kitchen window faces my kitchen so we always see each other making coffee at 3am"},
   {text: "You came to fix my thermostat while I wasn’t home and I walked in on you and you scared the shit of out of me and I hit you with a broom"},
   #technology (-50, id 51)
-  {text: "i keep calling tech support because you’re helpful and also your voice is really cute"},
+  {text: "I keep calling tech support because you’re helpful and also your voice is really cute"},
   {text: "I keep accidentally on purpose breaking my laptop/phone/tablet so that you'll have to fix it.  My explanations for it get worse each time."},
   {text: "I can’t believe you still listen to CDs let me help you digitize"},
-  {text: "While mid hack character A discovers character B hacking the same site"},
-  {text: "character A is helping character B learn how to code"},
+  {text: "While mid-hack, character A discovers character B hacking the same site"},
+  {text: "Character A is helping character B learn how to code"},
   #locations (-51, id 52)
   #space (-52, id 52, id 53)
-  {text: "in space"},
+  {text: "In space"},
   {text: "Star Trek"},
   {text: "Battlestar Galactica"},
-  {text: "humanity has destroyed Earth and sets off in star ships to find a new inhabitable planet"},
-  {text: "humanity's first contact with aliens"},
-  {text: "character A and character B are both residents of a space station and discover a conspiracy to try and bring it down"},
+  {text: "Humanity has destroyed Earth and sets off in star ships to find a new inhabitable planet"},
+  {text: "Humanity's first contact with aliens"},
+  {text: "Character A and character B are both residents of a space station and discover a conspiracy to try and bring it down"},
   #woods (-53, id 52, id 54)
-  {text: "both lost on separate hikes and meeting in the woods"},
+  {text: "Both lost on separate hikes and meeting in the woods"},
   {text: "I see you cut through my backyard and into the woods a lot so one day I decided to follow you and it turns out there’s a gorgeous cave back there"},
   {text: "I was tapping a maple tree for syrup and discovered something hidden in the trunk"},
   #medieval (-54, id 55)
@@ -388,6 +388,6 @@ Prompt.create!([
   {text: "Character A is a monk/priest/man of the church who is secretly a woman"},
   #pirate (-55, id 56)
   {text: "Character A is a Commodore on a mission to capture Character B, one of the most ruthless pirates ever to sail on the seas. But when Character A is caught in a storm and Character B rescues him/her, Character A starts to wonder just how evil Character B really is."},
-  {text: "character A disguises herself as a man in a pirate crew.  another pirate discovers her secret."},
-  {text: "character A disguises herself as a man in a pirate crew.  another pirate discovers her secret.  turns out that pirate's a disguised woman too."}
+  {text: "Character A disguises herself as a man in a pirate crew.  Another pirate discovers her secret."},
+  {text: "Character A disguises herself as a man in a pirate crew.  Another pirate discovers her secret.  Turns out that pirate's a disguised woman too."}
 ])
