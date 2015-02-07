@@ -7,7 +7,18 @@ Prompt.create!([
   {text: "I'm an extremely pissed off nymph because you’re always throwing your works in my river. And goddammit, you haven’t finished any of those and I'm dying to read the next chapter."},
   {text: "Mythical creatures start popping up all around the country."},
   {text: "You rubbed my lamp, I am your genie but I kinda suck at using my magic so bear with me here"},
-  #Chanukah (-3, id 2, id 3)
+  #holidays (-3, id 2)
+  {text: "Character A prepares a Thanksgiving meal for Character B, who's never had one before"},
+  {text: "I've never made a Thanksgiving dinner before but oh shit I volunteered and people are coming"},
+  {text: "Thanksgiving dinner from the perspective of the turkey"},
+  {text: "I meant to kiss my significant other at midnight but whoops I kissed you my mistake"},
+  {text: "I say that I think typical Valentine's gifts are revolting but you catch me secretly snuggling a teddy bear someone gave me"},
+  {text: "Buying up all the chocolate post-Valentine's Day"},
+  {text: "I happened upon a scavenger hunt of gifts that someone created for someone else on Valentine's Day and I can't help but follow it to see where it goes."},
+  {text: "I said that I'd help you figure out who your secret admirer is who's been sending you gifts but actually it's me."},
+  {text: "We're part of a cast for a silly Valentine's Day reality special but I might actually be falling in love with you"},
+  {text: "This box of chocolates I bought at the store has no chocolate, just clues left by a serial killer"},
+  #Chanukah (-4, id 2, id 3)
   {text: "I accidentally set the kitchen on fire frying things and you are an attractive firefighter."},
   {text: "What do you mean you’ve never played strip dreidel LET ME INTRODUCE YOU TO THIS PERVERSION OF THE GAME"},
   {text: "I know you’re just trying to take a smoke break but we ran out of matches and it’s Chanukah can I steal you for five minutes"},
@@ -53,19 +64,6 @@ Prompt.create!([
   {text: "Haunted house where they are strangers who are with their friends walking through and end up clutching each other until they get out"},
   {text: "Accidentally scared a kid and their adult is angry"},
   {text: "Character A is the eccentric scientist who lives down the road. Character B is the mailperson who ends up delivering the …exotic ingriedients Character A needs for their experiments."},
-  #Thanksgiving (-6, id 2, id 6)
-  {text: "Character A prepares a Thanksgiving meal for Character B, who's never had one before"},
-  {text: "I've never made a Thanksgiving dinner before but oh shit I volunteered and people are coming"},
-  {text: "Thanksgiving dinner from the perspective of the turkey"},
-  #New Year's (-7, id 2, id 7)
-  {text: "I meant to kiss my significant other at midnight but whoops I kissed you my mistake"},
-  #Valentine's Day (-8, id 2, id 8)
-  {text: "I say that I think typical Valentine's gifts are revolting but you catch me secretly snuggling a teddy bear someone gave me"},
-  {text: "Buying up all the chocolate post-Valentine's Day"},
-  {text: "I happened upon a scavenger hunt of gifts that someone created for someone else on Valentine's Day and I can't help but follow it to see where it goes."},
-  {text: "I said that I'd help you figure out who your secret admirer is who's been sending you gifts but actually it's me."},
-  {text: "We're part of a cast for a silly Valentine's Day reality special but I might actually be falling in love with you"},
-  {text: "This box of chocolates I bought at the store has no chocolate, just clues left by a serial killer"},
   #wedding/engagement (-6, id 6)
   {text: "I jokingly told you that the only way I’d marry you was if you did this weird outlandish thing, and you actually did it, and I'm kind of charmed"},
   {text: "This is probably a bad time, but marry me?"},
@@ -112,6 +110,10 @@ Prompt.create!([
   {text: "Character A is a Renaissance painter.  Character B is a model."},
   {text: "You run a speakeasy and someone's been asking too many questions."},
   {text: "We’re gold miners who met on a dig and we’ve really hit it off but how the hell are all these other rough-tough redneck mountain men types going to take it."},
+  {text: "Look, as the prince of this kingdom you have to accept that you’re getting married and as your best friend/servant/aide I'm helping you pick possible candidates so please stop writing my name down"},
+  {text: "Each night, the forest rearranges itself. What happens when a weary traveler is caught in the shuffle, and emerges lost and confused the next day, without any memory?"},
+  {text: "The plague swept through our little village and we're the only two who survived"},
+  {text: "Character A is a monk/priest/man of the church who is secretly a woman"},
   #school (-8, id 8)
   {text: "Our prom dates just ditched us for each other let’s show them what they’re missing out on"},
   {text: "Local teenage delinquent/Head of chastity club"},
@@ -121,12 +123,10 @@ Prompt.create!([
   {text: "I'm a freshman and the the seniors stole my underwear as a prank.  Do you happen to have an extra bra?"},
   {text: "Hey classmate, I’ll be telling some jokes and puns during my presentation but I’m not sure if anyone will laugh so can I count on you to laugh so I don’t look stupid?"},
   {text: "Marching band “you’re in the drum section and I play trombone, this is a scandal"},
-  #teacher/librarian (-9, id 8, id 9)
   {text: "Language teachers who compete to see who can make each other more flustered in front of the class in the other language"},
   {text: "I teach your child and we have very important meetings about their education"},
   {text: "The English and Science departments of a small-town high school are bitter archrivals. The new biology teacher, however, doesn’t quite get the memo before his first few days on the job. Shenanigans ensue."},
   {text: "We've been forced to go to this awful professional development meeting or retreat so let's get up to shenanigans"},
-  #boarding school (-10, id 8, id 10)
   {text: "Preppy boarding school, one of them is there on scholarship"},
   {text: "I can't go home for (insert holiday/school break here) but your parents agreed to take me in"},
   #college/university/higher ed (-11, id 11)
@@ -179,10 +179,9 @@ Prompt.create!([
   {text: "I came home from college and didn’t know my parents were gone and had you house-sit"},
   {text: "We were studying across from each other in the library not acknowledging each other for hours and you passed out and fell onto my book so I’m screwed"},
   {text: "Hey classmate, I’ll be telling some jokes and puns during my presentation but I’m not sure if anyone will laugh so can I count on you to laugh so I don’t look stupid?"},
-  #professor (-12, id 11, id 12)
   {text: "College/university professors"},
   {text: "I'm trying to write my next scholarly article and you're hogging all the books I need"},
-  #classics (-13, id 11, id 13)
+  #classics and mythology (-13, id 11, id 13)
   {text: "Taking a course on a love elegist the same semester you discovered your sexuality"},
   {text: "Help I missed class can you lend me your notes on Martial' (2 hours later) 'that’s actually what that word means?!?"},
   {text: "Complaining about how high school students/incoming freshman think Catullus 16 is the epitome of dirty Latin and you both start quoting your own favorite passages and it escalates"},
@@ -197,17 +196,15 @@ Prompt.create!([
   {text: "Greek play, possibly involving toga mishaps"},
   {text: "Roleplay in Latin, bonus for sexy mistranslations"},
   {text: "Five-hour argument on etymology until suddenly that’s not what it’s about anymore"},
-  #mythology (-14, id 14)
   {text: "Greek deity falls for a human"},
-  #assassins (-15, id 15)
+  #assassins/spies (-15, id 15)
   {text: "Your partner hired me to kill you but they’re an asshole so let’s make out instead"},
-  #spies (-16, id 16)
   {text: "Rival clandestine spies"},
   {text: "Sorry to tell you this but the trapped suitcase you’re trying to defuse is actually mine. And it doesn’t have a bomb in it, just toys. And the adult kind"},
   #hospital/doctor (-17, id 17)
   {text: "We both got in separate bar fights downtown and now we’re waiting in the ER comparing stories"},
   {text: "You have short term memory after your surgery - short term memory - surgery for your - no, short term memory - jesus christ stop asking"},
-  {text: "That stupid thing i dared you to do sent you to the hospital"},
+  {text: "That stupid thing I dared you to do sent you to the hospital"},
   {text: "I do stupid shit and you’re my doctor"},
   {text: "I'm scared of the dentist so I brought my best friend along for support but they've been flirting with the dentist for the past fifteen minutes and now I'm third wheeling at my own dentist appointment."},
   {text: "I’m calling to cancel our date because I’m actually in the ER right now, sorry. …I mean, sure, I guess you can come down here, but… okay…"},
@@ -289,10 +286,9 @@ Prompt.create!([
   {text: "Wore the same obscure fandom shirt in public"},
   {text: "Dungeons and dragons"},
   {text: "OMG, you speak Klingon too?!"},
-  #convention (-30, id 29, id 30)
   {text: "Met at a con where we accidentally cosplayed the fandom otp PLOT TWIST it’s our notp but god damn I wouldn’t mind making out with you"},
   {text: "We went to a con/party dressed as a couple on accident"},
-  {text: "Cosplayed as the same character "},
+  {text: "Cosplayed as the same character."},
   {text: "Got involved in a heated game of Smash Bros. at a con"},
   #slice of life (-31, id 31)
   {text: "Street performers"},
@@ -360,7 +356,6 @@ Prompt.create!([
   {text: "Hate each other but got thrown in the same group during a team building exercise"},
   {text: "We’ve always taken the same elevator to work everyday and we’ve always wanted to say something to each other but have never gotten up the nerve but today the elevator stopped working and we are trapped together"},
   {text: "We’re actors on a show and our characters are dating and all the fans think we are and we’ve denied it for so long that our stubbornness is keeping us from something incredible."},
-  #detective/cop/agent (-32, id 32, id 33)
   {text: "Rescuing their partner from a recon mission gone wrong"},
   {text: "My new fbi partner/consultant is really hot"},
   {text: "Detective partners"},
@@ -378,9 +373,7 @@ Prompt.create!([
   {text: "Character A is a highly dangerous sociopath charged with many accounts of gruesome murder. Character B is their long-time best friend who has always stuck by them, no matter how bad it gets. Character A is now afraid of losing Character B, as Character A feels that they are slowly slipping back into their dark side."},
   {text: "I tried to rescue you from being mugged but instead I got knocked out and you had to take me to the hospital after having your wallet stolen"},
   #weather (-35, id 36)
-  #snow (-36, id 37)
   {text: "We were both working during the holidays but got snowed in at the office"},
-  #rain (-37, id 38)
   {text: "It’s raining and u forgot your umbrella so come over and stand under mine while we wait for the bus"},
   {text: "It was raining so hard I wasn’t paying attention as I ran into you but were both drenched now and also hey there."},
   {text: "You turned up at my door sopping wet and I dont know what else to do"},
@@ -414,16 +407,12 @@ Prompt.create!([
   {text: "Bored single parents at a ____________ concert"},
   {text: "At a concert and you kinda saved me from being trampled"},
   {text: "Singing along to the same radio station in separate cars with the windows open"},
-  #summer camp (-40, id 41)
-  {text: "Lifeguards at a summer camp"},
-  {text: "Camp counselors at the same sleep away camp"},
-  #transit (-41, id 42)
+  #transit/travel (-41, id 42)
   {text: "We’re strangers but I absolutely hate your music taste and I feel the need to tell you this on a crowded subway"},
   {text: "We’re the only ones in this subway car and the metro broke down"},
   {text: "Accidentally fell in your lap while standing on this crowded bus"},
   {text: "Ride the same bus together literally every day"},
   {text: "We were both standing on the subway and the train jostled a bit and I fell into you and you smell nice"},
-  #travel (-42, id 43)
   {text: "You’ve been playing guitar in the hall of the hotel since three in the morning and I came down to tell you to shut the fuck up"},
   {text: "Incredibly long crosscountry train ride"},
   {text: "Stuck in an airport because the flights were SO VERY delayed and it’s like two AM"},
@@ -463,7 +452,7 @@ Prompt.create!([
   {text: "Character A is spring and Character B is another season"},
   {text: "You're an employee at a gardening or landscape store and one of your customers is in the store all of the time asking questions because they have the worst black thumb"},
   {text: "A world where spring has largely negative associations"},
-  {text: "You’re my gardener and i hired you to plant some roses but would you like to stay and plant some sunflowers and stay and have some dinner"},
+  {text: "You’re my gardener and I hired you to plant some roses but would you like to stay and plant some sunflowers and stay and have some dinner"},
   #summer (-47, id 48)
   {text: "I'm out picking berries with friends and this asshole keeps darting in and taking the juicy ones off of the bush I'm at"},
   {text: "Dude I know we don't know each other but my swim trunks came off when I jumped in the water can you grab them for me"},
@@ -471,6 +460,8 @@ Prompt.create!([
   {text: "We were total strangers before we entered this watermelon seed spitting contest but now we're getting really competitive"},
   {text: "Character A is summer and Character B is another season"},
   {text: "summer bonfire or s'mores"},
+  {text: "Lifeguards at a summer camp"},
+  {text: "Camp counselors at the same sleep away camp"},
   #fall/autumn (-48, id 49)
   {text: "I got caught staring at my adult neighbour raking up a bunch of leaves in their backyard and jumping into them and now have to awkwardly pretend I saw nothing"},
   {text: "Met at a pumpkin patch fighting over the same perfectly round and picturesque pumpkin"},
@@ -548,11 +539,6 @@ Prompt.create!([
   {text: "I work at the boardwalk by the beach where you're vacationing."},
   {text: "You discover a body part washed ashore."},
   {text: "I ran out of sunscreen.  Can I borrow yours?"},
-  #medieval (-54, id 55)
-  {text: "Look, as the prince of this kingdom you have to accept that you’re getting married and as your best friend/servant/aide I'm helping you pick possible candidates so please stop writing my name down"},
-  {text: "Each night, the forest rearranges itself. What happens when a weary traveler is caught in the shuffle, and emerges lost and confused the next day, without any memory?"},
-  {text: "The plague swept through our little village and we're the only two who survived"},
-  {text: "Character A is a monk/priest/man of the church who is secretly a woman"},
   #pirate (-55, id 56)
   {text: "Character A is a Commodore on a mission to capture Character B, one of the most ruthless pirates ever to sail on the seas. But when Character A is caught in a storm and Character B rescues him/her, Character A starts to wonder just how evil Character B really is."},
   {text: "Character A disguises herself as a man in a pirate crew.  Another pirate discovers her secret."},
