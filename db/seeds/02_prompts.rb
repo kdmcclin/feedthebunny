@@ -129,6 +129,7 @@ Prompt.create!([
   {text: "We've been forced to go to this awful professional development meeting or retreat so let's get up to shenanigans"},
   {text: "Preppy boarding school, one of them is there on scholarship"},
   {text: "I can't go home for (insert holiday/school break here) but your parents agreed to take me in"},
+  {text: "You've put your damn tenor sax in the alto storage section so many times I'm going to give it to a drummer"},
   #college/university/higher ed (-11, id 11)
   {text: "Drama school rivals being cast as romantic opposites because they have “crazy sexual tension” according to their director"},
   {text: "We’re the only ones on campus who didn’t go home for christmas"},
@@ -424,6 +425,7 @@ Prompt.create!([
   {text: "The cruise line matched us up to share a room so that we wouldn't have to pay the single occupancy fee."},
   {text: "Character A decides to walk across the United States for some reason.  Who do they meet along the way?"},
   {text: "You keep kicking the back of my seat on the plane/train/bus"},
+  {text: "We're both stuck in an airplane for the next 14 hours next to a screaming baby and a rowdy toddler. And the mom is doing nothing about it."},
   #magic (-43, id 44)
   {text: "Hogwarts"},
   {text: "Wizard accidentally appears in the wrong house"},
