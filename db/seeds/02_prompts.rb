@@ -228,6 +228,7 @@ Prompt.create!([
   {text: "I was caught behind enemy lines and had to go to ground.  Now that the situation has improved all these years later I'm ready to come in from the cold"},
   {text: "I was *this* close to successfully assassinating my mark but your clumsiness saved them"},
   {text: "Brought down by a three year old"},
+  {text: "You just happened to be looking at the screen when I activated that program that could have destroyed everything"},
   #hospital/doctor (-17, id 17)
   {text: "We both got in separate bar fights downtown and now we’re waiting in the ER comparing stories"},
   {text: "You have short term memory after your surgery - short term memory - surgery for your - no, short term memory - jesus christ stop asking"},
@@ -237,6 +238,9 @@ Prompt.create!([
   {text: "I’m calling to cancel our date because I’m actually in the ER right now, sorry. …I mean, sure, I guess you can come down here, but… okay…"},
   {text: "I don't care if you are the next Bobby Flay, you've got to be more careful with your kitchen knife because this is not the Food Network"},
   {text: "Thank goodness that prescription mix-up wasn't dangerous so I can properly laugh at how high you are right now"},
+  {text: "I have little more than first-aid training but I'm the closest thing to a doctor that we've got"},
+  {text: "This blizzard is preventing more staff from getting to the hospital"},
+  {text: "I probably should have guessed, but when you asked if there were any doctors on the plane I didn't know that you meant medical doctors"},
   #superhero (-18, id 18)
   {text: "We’re superheroes that got drunk last night oh god what’d we do"},
   {text: "Waiting behind you in line but ‘excuse you me did I just hear you talking shit about my favorite superhero there SON’"},
@@ -245,12 +249,15 @@ Prompt.create!([
   {text: "A character suddenly gains a super power but equally suddenly loses a normal human ability."},
   {text: "A superhero stumbles into a parallel universe."},
   {text: "Superheros in decline (due to power, age, etc.)"},
-  {text: "A villian who accidentally falls in love with a superhero."},
+  {text: "A villain who accidentally falls in love with a superhero."},
   {text: "A superhero who accidentally falls in love with a villain."},
   {text: "A superhero (in character) who commits their day to helping people with an ordinary task."},
   {text: "A and B are rival superheroes at night but by day are best friends who don't know the other's secret identity."},
   {text: "A and B are rivals by day but best friends as their superhero alter egos"},
   {text: "You develop superpowers as an adult with a spouse and kids"},
+  {text: "I was trying to cause an event that would give me certain superpowers but woah that's so not what I meant"},
+  {text: "Thanks to my superability I now know that my significant other is cheating on me.  Thanks."},
+  {text: "Someone or several people have developed randomly specific super powers (ex: being able to clean dishes with just a look) but still manage to use them for good (or ill)"},
   #parties (-19, id 19)
   {text: "Mutual friends always dragged to the same inane barbecues"},
   {text: "No one at this party knows how to buy wine.  Let’s go on a wine run fellow enthusiast stranger"},
@@ -261,6 +268,7 @@ Prompt.create!([
   {text: "Mutual drunk friend called BOTH of us to pick them up from a party well this is awkward"},
   {text: "I don’t know you but you were at that party last night and long story short I now have your name tatooed on my ass"},
   {text: "Swapping 'miracle cure recipes' for hangovers."},
+  {text: "Cards Against Humanity with someone almost 3 times our age was bound to be awkward, but how on earth are they winning every hand?"},
   #animals (-20, id 20)
   {text: "Zookeepers"},
   {text: "Ended up adopting like three dogs because that pet shelter employee is really hot"},
@@ -270,6 +278,8 @@ Prompt.create!([
   {text: "I work at the animal shelter and you always come in to pet the cats when you’re sad"},
   {text: "Your dog rescued me how can I ever repay you?"},
   {text: "We're the only two people on this whale watching tour but the captain's agreed to take us out anyhow."},
+  {text: "I almost was bitten by a deadly poisonous snake but you killed it just in time"},
+  {text: "This is the third hamster you've returned in as many weeks.  Maybe pets aren't for you?"},
   #shops (-21, id 21)
   {text: "Got a crush on the hairdresser and now my hair is slowly getting really short"},
   {text: "Ended up adopting like three dogs because that pet shelter employee is really hot"},
