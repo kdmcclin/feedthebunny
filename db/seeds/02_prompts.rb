@@ -214,6 +214,7 @@ Prompt.create!([
   {text: "Roleplay in Latin, bonus for sexy mistranslations"},
   {text: "Five-hour argument on etymology until suddenly that’s not what it’s about anymore"},
   {text: "Greek deity falls for a human"},
+  {text: "A character is a reincarnated version of Greco-Roman gods but somehow their personality got switched (ex: Ares/Mars is an extreme pacifist)"},
   #assassins/spies (-15, id 15)
   {text: "Your partner hired me to kill you but they’re an asshole so let’s make out instead"},
   {text: "Rival clandestine spies"},
@@ -241,6 +242,10 @@ Prompt.create!([
   {text: "I have little more than first-aid training but I'm the closest thing to a doctor that we've got"},
   {text: "This blizzard is preventing more staff from getting to the hospital"},
   {text: "I probably should have guessed, but when you asked if there were any doctors on the plane I didn't know that you meant medical doctors"},
+  {text: "I've seen pretty much every version of 'experimental sexual activity gone wrong,' so please just tell me what's happened."},
+  {text: "Thank you so much for covering my shift at the last minute I owe you a huge favor.  Multiple favors even."},
+  {text: "A hospital janitor sees something they weren't meant to because no one ever pays attention to the janitor"},
+  {text: "A universal donor is called on to do an emergency blood transfusion in public. Why?"},
   #superhero (-18, id 18)
   {text: "We’re superheroes that got drunk last night oh god what’d we do"},
   {text: "Waiting behind you in line but ‘excuse you me did I just hear you talking shit about my favorite superhero there SON’"},
@@ -269,6 +274,10 @@ Prompt.create!([
   {text: "I don’t know you but you were at that party last night and long story short I now have your name tatooed on my ass"},
   {text: "Swapping 'miracle cure recipes' for hangovers."},
   {text: "Cards Against Humanity with someone almost 3 times our age was bound to be awkward, but how on earth are they winning every hand?"},
+  {text: "I helped you get out of a tough situation at the party when that asshole wouldn't stop bothering you and the police want to question *you*?  Fuck that shit."},
+  {text: "We're adults.  Why are we playing seven minutes in heaven?"},
+  {text: "We're adults.  Sure, spin the bottle sounds like a great idea."},
+  {text: "Pinatas were not meant for drunk people"},
   #animals (-20, id 20)
   {text: "Zookeepers"},
   {text: "Ended up adopting like three dogs because that pet shelter employee is really hot"},
@@ -411,6 +420,7 @@ Prompt.create!([
   {text: "Serial killers, rivals or a team."},
   {text: "Character A is a highly dangerous sociopath charged with many accounts of gruesome murder. Character B is their long-time best friend who has always stuck by them, no matter how bad it gets. Character A is now afraid of losing Character B, as Character A feels that they are slowly slipping back into their dark side."},
   {text: "I tried to rescue you from being mugged but instead I got knocked out and you had to take me to the hospital after having your wallet stolen"},
+  {text: "A man lay dead in a pool of red with two sticks by his head."},
   #weather (-35, id 36)
   {text: "We were both working during the holidays but got snowed in at the office"},
   {text: "It’s raining and u forgot your umbrella so come over and stand under mine while we wait for the bus"},
@@ -537,6 +547,8 @@ Prompt.create!([
   {text: "The ceiling is leaking. Who wants to deal with the apartment manager?"},
   {text: "Person A suspect the new neighbors are serial killers. Person B attempts to placate them."},
   {text: "Choosing to repaint the apartment and goes to the hardware store together to pick out color swatches."},
+  {text: "The police stormed our apartment building to arrest you but I'm 99% sure you didn't do it so oops I'm lying to the police while you're clinging to the drainpipe outside."},
+  {text: "So you're that asshole who keeps parking in my assigned garage spot."},
   #technology (-50, id 51)
   {text: "I keep calling tech support because you’re helpful and also your voice is really cute"},
   {text: "I keep accidentally on purpose breaking my laptop/phone/tablet so that you'll have to fix it.  My explanations for it get worse each time."},
