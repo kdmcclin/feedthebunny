@@ -73,6 +73,7 @@ Prompt.create!([
   {text: "It's July.  Why the fuck does my local store have Halloween stuff out already?"},
   {text: "Every year we try to out do each other with the craziest costumes.  I'm determined to beat you this year."},
   {text: "Our Halloween scary movie marathon sounded like such a great idea until I realized 10 minutes in how much I hate horror movies."},
+  {text: "'I’m home alone and afraid will you come stay with me' and instead you come make scary noises outside my window"},
   #wedding/engagement (-6, id 6)
   {text: "I jokingly told you that the only way I’d marry you was if you did this weird outlandish thing, and you actually did it, and I'm kind of charmed"},
   {text: "This is probably a bad time, but marry me?"},
@@ -146,6 +147,8 @@ Prompt.create!([
   {text: "Stereotypical tough person finds out that they can't stand doing dissection so it's up to their shy and quiet lab partner to carry the day"},
   {text: "I'm a student teacher/intern on the first day and what the fuck did I get myself into"},
   {text: "Substitute teacher saves the day"},
+  {text: "We’re in the same driver’s ed car and I almost crashed because your giggling in the backseat was distracting"},
+  {text: "The guy with the locker between ours keeps making out with girls and blocking all three of the lockers and making us late for class"},
   #college/university/higher ed (-11, id 11)
   {text: "Drama school rivals being cast as romantic opposites because they have “crazy sexual tension” according to their director"},
   {text: "We’re the only ones on campus who didn’t go home for christmas"},
@@ -198,6 +201,7 @@ Prompt.create!([
   {text: "Hey classmate, I’ll be telling some jokes and puns during my presentation but I’m not sure if anyone will laugh so can I count on you to laugh so I don’t look stupid?"},
   {text: "College/university professors"},
   {text: "I'm trying to write my next scholarly article and you're hogging all the books I need"},
+  {text: "When my archaeology professor friend invited me along on a dig I really didn't think that it would be this boring"},
   #classics and mythology (-13, id 11, id 13)
   {text: "Taking a course on a love elegist the same semester you discovered your sexuality"},
   {text: "Help I missed class can you lend me your notes on Martial' (2 hours later) 'that’s actually what that word means?!?"},
@@ -230,6 +234,12 @@ Prompt.create!([
   {text: "I was *this* close to successfully assassinating my mark but your clumsiness saved them"},
   {text: "Brought down by a three year old"},
   {text: "You just happened to be looking at the screen when I activated that program that could have destroyed everything"},
+  {text: "It turns out that my really sweet neighbor was a sleeper agent"},
+  {text: "I'm being chased around town by people that I'm 99% sure are spies and I don't know what the hell they're after"},
+  {text: "I'm being chased around town by people that I'm 99% sure are spies help me random shopkeeper"},
+  {text: "I'm being chased around town by people that I'm 99% sure are spies--wait they're shooting at each other now--guess they're on opposing sides"},
+  {text: "Assassinating that person at a theater?  So 1865."},
+  {text: "Having all those locks on your door seemed a bit excessive but after that shootout it all makes sense now"},
   #hospital/doctor (-17, id 17)
   {text: "We both got in separate bar fights downtown and now we’re waiting in the ER comparing stories"},
   {text: "You have short term memory after your surgery - short term memory - surgery for your - no, short term memory - jesus christ stop asking"},
@@ -246,6 +256,9 @@ Prompt.create!([
   {text: "Thank you so much for covering my shift at the last minute I owe you a huge favor.  Multiple favors even."},
   {text: "A hospital janitor sees something they weren't meant to because no one ever pays attention to the janitor"},
   {text: "A universal donor is called on to do an emergency blood transfusion in public. Why?"},
+  {text: "You're the only one I sort of know here in this quarantine please keep me from losing my mind while they figure this out"},
+  {text: "We're the only two people who have been quarantined in this hospital basement, but we've never met before"},
+  {text: "When it said 'in case of emergency please break glass' I didn't think that doing so would send me to the emergency room"},
   #superhero (-18, id 18)
   {text: "We’re superheroes that got drunk last night oh god what’d we do"},
   {text: "Waiting behind you in line but ‘excuse you me did I just hear you talking shit about my favorite superhero there SON’"},
@@ -278,6 +291,7 @@ Prompt.create!([
   {text: "We're adults.  Why are we playing seven minutes in heaven?"},
   {text: "We're adults.  Sure, spin the bottle sounds like a great idea."},
   {text: "Pinatas were not meant for drunk people"},
+  {text: "I’m drunk at a party and you won’t let me make out with you until I eat this whole plate of pasta/drink all of the water"},
   #animals (-20, id 20)
   {text: "Zookeepers"},
   {text: "Ended up adopting like three dogs because that pet shelter employee is really hot"},
@@ -393,6 +407,9 @@ Prompt.create!([
   {text: "I’m an art student that likes to sketch at a museum and you’re that hot person that always comes and sits in front of the one same painting for three hours and does nothing else every Saturday and I need to know why"},
   {text: "You crashed into me on your bicycle but I’m actually okay, you on the other hand look like you need some first aid"},
   {text: "B spots A walking down the street and promptly crashes their bike into a pole/a building/another bike rider."},
+  {text: "I found your lost wallet"},
+  {text: "I accidentally liked your instagram from 49 weeks ago"},
+  {text: "Yeah walking away from me in a dramatic huff after an argument would have gone a lot better if you didn't just try to slam a revolving door"},
   #business/professions (-32, id 32)
   {text: "I should not be this attracted to the new intern"},
   {text: "One night stand before the first day of your new job and oops that was your new boss you were sleeping with"},
@@ -408,6 +425,8 @@ Prompt.create!([
   {text: "My new fbi partner/consultant is really hot"},
   {text: "Detective partners"},
   {text: "Police procedural"},
+  {text: "We're scientists working in the same narrow field and dammit quit stealing all my ideas"},
+  {text: "I've been pretty successful so far about hiding the fact that I hate the politician for whom I work but oh shit everyone at this fundraiser got real quiet at the wrong time"},
   #apocalypse (-33, id 34)
   {text: "Being reunited after surviving the zombie apocalypse unknowing if the other was alive or dead"},
   {text: "This is the end of the world and we're all we've got"},
@@ -477,6 +496,7 @@ Prompt.create!([
   #magic (-43, id 44)
   {text: "Hogwarts"},
   {text: "Wizard accidentally appears in the wrong house"},
+  {text: "We can’t agree on who loves harry potter more"},
   #family (-44, id 45)
   {text: "You’re my siblings’s best friend and I absolutely hate you but pretend to be my boy/girlfriend to piss off my family"},
   {text: "My new best friend’s sibling is so hot"},
@@ -512,6 +532,10 @@ Prompt.create!([
   {text: "summer bonfire or s'mores"},
   {text: "Lifeguards at a summer camp"},
   {text: "Camp counselors at the same sleep away camp"},
+  {text: "We’re both working at an amusement park for the summer and race go-carts after closing every night"},
+  {text: "I was sitting in a tube floating down the river and your fishing hook popped it"},
+  {text: "We probably should have read the directions and warning label before lighting that firework"},
+  {text: "Not really sure why I agreed to go on this fishing trip but at least the weather's nice?"},
   #fall/autumn (-48, id 49)
   {text: "I got caught staring at my adult neighbour raking up a bunch of leaves in their backyard and jumping into them and now have to awkwardly pretend I saw nothing"},
   {text: "Met at a pumpkin patch fighting over the same perfectly round and picturesque pumpkin"},
@@ -549,6 +573,11 @@ Prompt.create!([
   {text: "Choosing to repaint the apartment and goes to the hardware store together to pick out color swatches."},
   {text: "The police stormed our apartment building to arrest you but I'm 99% sure you didn't do it so oops I'm lying to the police while you're clinging to the drainpipe outside."},
   {text: "So you're that asshole who keeps parking in my assigned garage spot."},
+  {text: "You fell off your bike in front of my house so i rush outside with a first aid kit"},
+  {text: "We just moved into the city but have no money so we sleep on a mattress in the middle of the apartment surrounded by stacks of books and our one house plant"},
+  {text: "I swear we're one of the last apartments/houses to have a landline phone but that's not an excuse to keep changing the voicemail message to random silly things."},
+  {text: "Whoops.  Totally didn't realize that our neighbors' new addition meant that they could see into our backyard/garden now.  Awkward."},
+  {text: "We just bought a bunch of stuff from IKEA for our place.  Now the fun part: putting it all together"},
   #technology (-50, id 51)
   {text: "I keep calling tech support because you’re helpful and also your voice is really cute"},
   {text: "I keep accidentally on purpose breaking my laptop/phone/tablet so that you'll have to fix it.  My explanations for it get worse each time."},
@@ -568,6 +597,9 @@ Prompt.create!([
   {text: "Does anyone here have an iPhone 5 charger? ANYONE?"},
   {text: "You work at the phone store and I keep purposely messing up settings on my phone so I can come in and talk to you"},
   {text: "Neither of us has a smartphone."},
+  {text: "Um did you actually create artificial intelligence?"},
+  {text: "A computer that seems to have developed some kind of sentient thought"},
+  {text: "Thanks for helping me work out that error, but now I'm getting several new ones"},
   #locations (-51, id 52)
   {text: "You stumbled out of the desert onto a road and I just barely avoided hitting you.  You can't remember what happened to you."},
   #space (-52, id 52, id 53)
@@ -577,6 +609,7 @@ Prompt.create!([
   {text: "Humanity has destroyed Earth and sets off in star ships to find a new inhabitable planet"},
   {text: "Humanity's first contact with aliens"},
   {text: "Character A and character B are both residents of a space station and discover a conspiracy to try and bring it down"},
+  {text: "I consider you a rational and logical person but you seem damn sure that you had contact with aliens the other night"},
   #woods (-53, id 52, id 54)
   {text: "Both lost on separate hikes and meeting in the woods"},
   {text: "I see you cut through my backyard and into the woods a lot so one day I decided to follow you and it turns out there’s a gorgeous cave back there"},
@@ -584,6 +617,8 @@ Prompt.create!([
   {text: "A hiker or group gets lost on a trail and has to survive using only what's available around them"},
   {text: "I ate this plant I found in the woods and now I have superpowers."},
   {text: "You know, we really have the tree to thank for all this."},
+  {text: "I swear venison tastes better when you shoot the deer yourself"},
+  {text: "Getting stoned in the woods sounded like a great idea at first"},
   #beach (-54, id 52, id 55)
   {text: "I tripped as I was running on the beach and accidentally got sand all over your ______.  I am so sorry."},
   {text: "When they say don't swim beyond the buoys, they mean it."},
@@ -596,5 +631,12 @@ Prompt.create!([
   {text: "Character A disguises herself as a man in a pirate crew.  Another pirate discovers her secret."},
   {text: "Character A disguises herself as a man in a pirate crew.  Another pirate discovers her secret.  Turns out that pirate's a disguised woman too."},
   #sports/exercise
-  {text: "I’m at a climbing gym and I need someone to belay me and hey you look about the right size"}
+  {text: "I’m at a climbing gym and I need someone to belay me and hey you look about the right size"},
+  {text: "How on earth did we manage to switch shoes at the gym and not notice?"},
+  {text: "Thanks for offering to spot me.  I hope you're not doing it because you assume I can't lift this much"},
+  {text: "We're the only three people on the weight machines right now but we keep glancing at each other because the third person keeps banging the damn weights together"},
+  {text: "Laser tag is too exercise"},
+  {text: "Easy there champ, this is a rec league, not the pros"},
+  {text: "We're the only people seated in this section who actually give a damn about the game instead of the latest office gossip"},
+  {text: "This adaptive technology means that I can finally participate in _________________ and I am so freaking excited"}
 ])
