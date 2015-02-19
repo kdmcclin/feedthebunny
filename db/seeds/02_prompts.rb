@@ -521,6 +521,7 @@ Prompt.create!([
   {text: "You discover the secret of the Bermuda Triangle, but is it too late?"},
   {text: "The president’s son discovers ghosts that inhabit the White House, and they’ve got a message for him."},
   {text: "Every night, a man hears music behind his house. When he finally investigates, he discovers a circus in the middle of nowhere that disappears each morning."},
+  {text: "You periodically find yourself with the sudden knowledge of when random people around you are going to die, whether soon or years from now."},
   #music (-39, id 40)
   {text: "I was singing in public and you decided to join in and now we’re singing a dramatic duet together also what’s your number"},
   {text: "We have to sing a duet together but I hate you"},
@@ -752,5 +753,21 @@ Prompt.create!([
   {text: "We're the only people seated in this section who actually give a damn about the game instead of the latest office gossip"},
   {text: "This adaptive technology means that I can finally participate in _________________ and I am so freaking excited"},
   {text: "The newest gym craze is exploding exercise bikes: stop peddling and BOOM!"},
-  {text: "Character A is completely taken aback by character B's obsession with a certain sport"}
+  {text: "Character A is completely taken aback by character B's obsession with a certain sport"},
+  {text: "You spilled your beer on me at a __________ game"},
+  {text: "I went to a fight and a hockey game broke out"},
+  {text: "Character A is encouraging character B to get fit and healthy"},
+  {text: "Character A and character B ditch their assigned paintball groups and team up to destroy everyone"},
+  {text: "We may be taking this whole laser tag experience a bit too seriously"},
+  {text: "Our office/team/pair/etc. has signed up for a sports competition that will raise funds for an important cause.  Not only has the fundraising become competitive but we are going to CRUSH the competition"},
+  {text: "I'm normally the only one that uses this public archery range but lately you've started showing up.  Maybe I should talk to you one of these days."},
+  {text: "'______________ is not a sport.'  'It is too a sport!'"},
+  {text: "A ball just crashed through my window and I was all set to go yell at some kids but it's just you and you're not a kid"},
+  {text: "What do you mean you're auditioning someone for your triathalon team?"},
+  {text: "You're a biathlete who's hired me to help you improve your marksmanship"},
+  {text: "Character A runs into character B on a ski hill"},
+  {text: "I saw someone doing amazing tricks in the halfpipe but when you took your helmet off I was surprised to see someone like you"},
+  {text: "Next time you hit a golf ball in my direction at least have the decency to yell 'FORE' you obnoxious asshole"},
+  {text: "Shirley you joust"},
+  {text: "Character A teases the heck out of character B for putting the bumpers up when bowling, but when their turn comes around they can't hit a thing"}
 ])
