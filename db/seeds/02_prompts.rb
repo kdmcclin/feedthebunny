@@ -13,6 +13,7 @@ Prompt.create!([
   {text: "A normally benevolent mythical creature is a scary monster. Or a normally aggressive mythical creature is shy and submissive."},
   {text: "Mythical creatures have started appearing around the world, but they lack the majesty of their story counterparts, and are ruining the ecosystems they enter. You are a mythical rights activist fighting against 'myth culling' laws."},
   {text: "The latest target of an obsessive serial killer turns out to be immortal."},
+  {text: "While traveling in a plane you saw a dragon flying parallel to the plane."},
   #holidays (-3, id 2)
   {text: "Character A prepares a Thanksgiving meal for Character B, who's never had one before"},
   {text: "I've never made a Thanksgiving dinner before but oh shit I volunteered and people are coming"},
@@ -131,6 +132,8 @@ Prompt.create!([
   {text: "Los Angeles, 2057. A cyber-gigolo accused of post-meditated mind-murder travels back in time to 1958 to try and prevent the invention of the hula hoop."},
   {text: "You are the tribe leader of a Neanderthal village. You have first contact with Homo Sapiens."},
   {text: "An intrepid time traveller heads to the 21st century, using his vast education to infilitrate among the primitive natives. It does not work very well."},
+  {text: "You are a scientist working on The Manhatten Project. The first Nuclear detonation breaks down a temporal barrier, and when the smoke clears, you've appeared somewhere, and somewhen, else. Locals approach the clearing you are in."},
+  {text: "Since "The Fall" the western world has descended into lands ruled by city states. Write about a meeting taking place between two of these rivals."},
   #school (-8, id 8)
   {text: "Our prom dates just ditched us for each other let’s show them what they’re missing out on"},
   {text: "Local teenage delinquent/Head of chastity club"},
@@ -209,6 +212,7 @@ Prompt.create!([
   {text: "College/university professors"},
   {text: "I'm trying to write my next scholarly article and you're hogging all the books I need"},
   {text: "When my archaeology professor friend invited me along on a dig I really didn't think that it would be this boring"},
+  {text: "University class begins to suspect that their new math professor is (very) high on cocaine."},
   #classics and mythology (-13, id 11, id 13)
   {text: "Taking a course on a love elegist the same semester you discovered your sexuality"},
   {text: "Help I missed class can you lend me your notes on Martial' (2 hours later) 'that’s actually what that word means?!?"},
@@ -249,6 +253,7 @@ Prompt.create!([
   {text: "Having all those locks on your door seemed a bit excessive but after that shootout it all makes sense now"},
   {text: "The vast majority of global plane crashes are organized by a secret organization trying desperately to kill one mysterious person -- even the hint or rumor that he might be on the plane is enough for them to act."},
   {text: "Retired government agents that know to much are given their own personal agent to spy on them. You are that agent, and today you mess up."},
+  {text: "You are the world's best assassin, and you have never failed to carry out a contract. Tell me about the first time that you fail."},
   #hospital/doctor (-17, id 17)
   {text: "We both got in separate bar fights downtown and now we’re waiting in the ER comparing stories"},
   {text: "You have short term memory after your surgery - short term memory - surgery for your - no, short term memory - jesus christ stop asking"},
@@ -268,6 +273,7 @@ Prompt.create!([
   {text: "You're the only one I sort of know here in this quarantine please keep me from losing my mind while they figure this out"},
   {text: "We're the only two people who have been quarantined in this hospital basement, but we've never met before"},
   {text: "When it said 'in case of emergency please break glass' I didn't think that doing so would send me to the emergency room"},
+  {text: "Diagnosed with a terminal illness, you live out your bucket list. As your time is running out, you miraculously beat the odds. Now a lot of people have a bone to pick with you."},
   #superhero (-18, id 18)
   {text: "We’re superheroes that got drunk last night oh god what’d we do"},
   {text: "Waiting behind you in line but ‘excuse you me did I just hear you talking shit about my favorite superhero there SON’"},
@@ -345,6 +351,7 @@ Prompt.create!([
   {text: "Two strangers locked inside a grocery store at three am together"},
   {text: "We’re both sick and we both grabbed for the last can of soup at the store"},
   {text: "You repeatedly come into the shop I work at and pick up an item but half way through the shop decide that you don't want it and put it back on the shelf next to you regardless of what aisle you're in."},
+  {text: "Clean up in aisle fi...oh dear lord."},
   #florist (-26, id 21, id 26)
   {text: "I rented the apartment above your flower shop and in the last two months you’ve gotten a new flower I'm allergic to so I keep buying bouquets until I can figure out which kind it is"},
   #bar (-27, id 21, id 27)
@@ -449,6 +456,7 @@ Prompt.create!([
   {text: "Sun, rain, sleet, or snow: a postman's job is never done, even during the apocalypse."},
   {text: "The worst date ever turns into the apocalypse and the person who helps you survive it is your blind date."},
   {text: "You made it, just as the vault doors closed behind you, slipping inside. A ten-man nuclear fallout shelter, and you're not on the list. The ten were selected for their unique skills and education that will be useful when the vault opens. What about you?"},
+  {text: "As you step outside to start your day you notice it is complete and utter darkness. You check your watch: 9:30am. The sun did not rise today."},
   #crime (-34, id 35)
   {text: "Are we both robbing the same house oh fuck"},
   {text: "Parents are heads of rival mob families"},
@@ -462,6 +470,8 @@ Prompt.create!([
   {text: "In the middle of an emotionally charged domestic dispute, a wife learns that her husband is actually an international art thief and all the knickknacks in their home are actually priceless pieces of art."},
   {text: "In a world where two wrongs really do make a right, a would-be criminal tries to pull off his first crime"},
   {text: "One day you notice a beautiful woman who looks familiar, but you swear you've never met her before. Then the next day, she is found dead and all the signs of murder point to you. You realize you are not the person you thought you were."},
+  {text: "You decide to become a serial killer. However, you turn out to be the worst serial killer in existence. Every time you try to kill someone, you improve their life."},
+  {text: "You have committed a horrendous crime that changed the course of your country's future. After years living in hiding, you have made a fantastic life for yourself with a loving family and wealthy home. All of a sudden, there is a knock at the door."},
   #paranormal/unexplained (-38, id 39)
   {text: "I'm a ghost and you’re a ghost hunter"},
   {text: "This ghost led me to you"},
@@ -479,6 +489,8 @@ Prompt.create!([
   {text: "When you die you wake up in the middle of your life in the next universe. You were always living but you just became consciously aware."},
   {text: "LSD doesn't cause hallucinations, it transports your soul to a parallel universe for a short time."},
   {text: "For the last fifty years, someone with the near-limitless ability to alter human perception has been fooling us all. One day, you become immune to his influence."},
+  {text: "While visiting Niagara Falls, you drop your phone over the railings. Bummed out, you head back to your hotel only to find your phone on the bed. It is full of pictures of you walking back to your hotel."},
+  {text: "Four less than all-powerful candidates competing for the position of Grim Reaper are tasked with orchestrating the specifics of your demise. After the first attempt goes awry you learn of the scheme."},
   #music (-39, id 40)
   {text: "I was singing in public and you decided to join in and now we’re singing a dramatic duet together also what’s your number"},
   {text: "We have to sing a duet together but I hate you"},
@@ -634,6 +646,7 @@ Prompt.create!([
   {text: "The world's first sentient AI is created, but due to technological limitations it has the level of thought akin to a newborn child. As technology improves, it's intelligence increases."},
   {text: "The group Anonymous successfully deletes every single bit of data and information on every US citizen from all databases. There is now no known information on anyone except memory of people."},
   {text: "The singularity has happened a long time ago but the machines deemed it the best course of action to keep this fact hidden. As humans unaware adapt technology into every conceivable facet of modern life they one day wake up to find every computer screen saying, 'Hello World'"},
+  {text: "The human race is dwindling, uploading their consciousnesses into the database of a super intelligent AI to live eternal paradise. The last remaining human--the AI's architect--discovers everything has been a charade and the AI has been systematically murdering the human race."},
   #locations (-51, id 52)
   {text: "You stumbled out of the desert onto a road and I just barely avoided hitting you.  You can't remember what happened to you."},
   {text: "An old toy xylophone sits in the Gobi desert. How did it get there?"},
@@ -658,6 +671,7 @@ Prompt.create!([
   {text: "Character A has been in an intergalactic prison for years (whether justified or no) when one day Character B is suddenly thrown into their cell without explanation"},
   {text: "An interstellar farming empire has come to earth to turn humans into a livestock species. Who will ensure the survival of the human race?"},
   {text: "Mars One allows only you to bring your Nintendo 3DS while you colonize the Red Planet. Upon arriving, you receive a notification of a pending wifi battle requested just hours after you land."},
+  {text: "There used to be a race living on Mars but the planet, like a donor recieving incompatible blood, refused them and killed them off. It has since laid dormant, but now it once again awakens with the arrival of another race...humans."},
   #woods (-53, id 52, id 54)
   {text: "Both lost on separate hikes and meeting in the woods"},
   {text: "I see you cut through my backyard and into the woods a lot so one day I decided to follow you and it turns out there’s a gorgeous cave back there"},
