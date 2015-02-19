@@ -24,7 +24,7 @@ Category.create!([
     {label: "bakery"},
   {label: "fandom"},
   {label: "slice of life"},
-  {label: "professions"},
+  {label: "corporate/professions"},
   {label: "apocalypse"},
   {label: "crime"},
   {label: "paranormal/unexplained"},
