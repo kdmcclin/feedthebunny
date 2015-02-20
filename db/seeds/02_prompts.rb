@@ -1,5 +1,5 @@
 Prompt.create!([
-  #mythical creatures (-2, id 1)
+  #magic and mythical creatures (-2, id 1)
   {text: "Mermaids"},
   {text: "We’ve been dating for three months and you’re only now telling me you’re a werewolf"},
   {text: "I'm a fisherman and you’re a mermaid who got tangled in one of my nets"},
@@ -19,6 +19,10 @@ Prompt.create!([
   {text: "A group of faeries accidentally make the inhabitants of a small Appalachian town fall in love with each other."},
   {text: "Character A must take over their ailing father’s business—raising dragons that they sell to the world’s wealthiest as pets."},
   {text: "Out catching fireflies on their family’s farm on a hot summer evening, two little girls accidentally capture a fairy instead."},
+  {text: "Hogwarts"},
+  {text: "Wizard accidentally appears in the wrong house"},
+  {text: "We can’t agree on who loves Harry Potter more"},
+  {text: "Character A, desperate for money to feed their family turns to robbery, only to find that they've chosen a wizard as their victim."},
   #holidays (-3, id 2)
   {text: "Character A prepares a Thanksgiving meal for Character B, who's never had one before"},
   {text: "I've never made a Thanksgiving dinner before but oh shit I volunteered and people are coming"},
@@ -144,6 +148,9 @@ Prompt.create!([
   {text: "A royal family in Medieval times bunkers down for the storm of the century that they believed was conjured by their enemies."},
   {text: "WWII: a spy working behind enemy lines in France is forced into a situation where they have to decide to trust a local with their secret"},
   {text: "For lack of a sheriff two characters have been charged with figuring out why people keep disappearing during a trip on the Oregon Trail"},
+  {text: "Character A is a Commodore on a mission to capture Character B, one of the most ruthless pirates ever to sail on the seas. But when Character A is caught in a storm and Character B rescues him/her, Character A starts to wonder just how evil Character B really is."},
+  {text: "Character A disguises herself as a man in a pirate crew.  Another pirate discovers her secret."},
+  {text: "Character A disguises herself as a man in a pirate crew.  Another pirate discovers her secret.  Turns out that pirate's a disguised woman too."},
   #school (-8, id 8)
   {text: "Our prom dates just ditched us for each other let’s show them what they’re missing out on"},
   {text: "Local teenage delinquent/Head of chastity club"},
@@ -318,6 +325,8 @@ Prompt.create!([
   {text: "Our friends keep bailing on us so one night we follow them and HOLY SHIT THAT'S WHO'S BEHIND THE MASK?"},
   {text: "I'm a superhero with no sewing skills whatsoever so how am I supposed to get a cool costume?"},
   {text: "You found out my big superhero secret.  My costume's just things patched together from post-Halloween sales at the costume store"},
+  {text: "A supervillain edits a Wikipedia page-- either their own or their archenemy's"},
+  {text: "Captain Obvious is an actual superhero and manages to save the day."},
   #parties (-19, id 19)
   {text: "Mutual friends always dragged to the same inane barbecues"},
   {text: "No one at this party knows how to buy wine.  Let’s go on a wine run fellow enthusiast stranger"},
@@ -356,12 +365,10 @@ Prompt.create!([
   {text: "good old fashioned pawn shop waffle iron bidding war"},
   {text: "I need to knit my friend a present so can you maybe teach me how to knit"},
   {text: "That one asshole customer that always comes in 5 minutes before the store is about to close."},
-  #bookstore/library (-22, id 21, id 22)
   {text: "I accidentally feel asleep in the bookstore you work in cause I read so much"},
   {text: "We both tried to grab the last copy of that book in the shop"},
   {text: "Found their phone number in a library book"},
   {text: "We work at opposite ends of a library but we have this book swap thing going on and somehow we started leaving notes in the books"},
-  #restaurant/coffee shop (-23, id 21, id 23)
   {text: "Chef and waiter"},
   {text: "Forced to share a table at the coffee shop a couple days in a row because crowded coffee shop and no room"},
   {text: "I purposely get your coffee order wrong just so you’ll talk to me again"},
@@ -371,22 +378,18 @@ Prompt.create!([
   {text: "We’re both trying to take advantage of the unlimited appetizers deal on separate dates at TGI Fridays and I got the mozzarella sticks and I’m on my sixth plate and I want to die, can I PLEASE swap you for some of your wings?"},
   {text: "I go to this restaurant every week and sit at the same table and suddenly you’re my new server"},
   {text: "Always in front of me in line for the coffee shop with a ridiculous order that takes forever to make"},
-  #grocery store (-25, id 21, id 25)
   {text: "We reached for the last box of chicken nuggets in the supermarket at the same time and there’s no way I'm letting you have it asshole"},
   {text: "Two strangers locked inside a grocery store at three am together"},
   {text: "We’re both sick and we both grabbed for the last can of soup at the store"},
   {text: "You repeatedly come into the shop I work at and pick up an item but half way through the shop decide that you don't want it and put it back on the shelf next to you regardless of what aisle you're in."},
   {text: "Clean up in aisle fi...oh dear lord."},
   {text: "An extra-dimensional portal has opened up in your grocer's freezer."},
-  #florist (-26, id 21, id 26)
   {text: "I rented the apartment above your flower shop and in the last two months you’ve gotten a new flower I'm allergic to so I keep buying bouquets until I can figure out which kind it is"},
-  #bar (-27, id 21, id 27)
   {text: "New bartender at my favorite bar is unfairly attractive"},
   {text: "Met you at a bar but it turns out you’re a soldier and you’re getting shipped into combat tomorrow"},
   {text: "The only two people at a bar rooting for the same sports team"},
   {text: "Drunk pub karaoke night - Person A is really good and Person B sounds like a strangled cat"},
   {text: "That asshole stole my song at karaoke night"},
-  #bakery (-28, id 21, id 28)
   {text: "The customer wants a really odd/passive aggressive/insulting message on their cake baker"},
   #fandom (-29, id 29)
   {text: "Wore the same obscure fandom shirt in public"},
@@ -489,6 +492,7 @@ Prompt.create!([
   {text: "You made it, just as the vault doors closed behind you, slipping inside. A ten-man nuclear fallout shelter, and you're not on the list. The ten were selected for their unique skills and education that will be useful when the vault opens. What about you?"},
   {text: "As you step outside to start your day you notice it is complete and utter darkness. You check your watch: 9:30am. The sun did not rise today."},
   {text: "The news anchor's voice continued to crack, 'A lethal virus has been released into Vegas. At the moment we know of four stages. The final outcome looks...'"},
+  {text: "'Not even if you were the last man on Earth.' Challenge Accepted."},
   #crime (-34, id 35)
   {text: "Are we both robbing the same house oh fuck"},
   {text: "Parents are heads of rival mob families"},
@@ -510,6 +514,7 @@ Prompt.create!([
   {text: "A man elbows your character in a crowd. After he is gone, she discovers her cell phone is too. She calls her own number, and the man answers. She explains that the cell phone has personal information on it and asks the man to send it back to her. He hangs up. Instead of going to the police, your character decides to take matters into her own hands"},
   {text: "Character A clenched his teeth, feeling the porcelain slide. He took a deep breath, relaxed his jaw. 'You have two choices,' he said, 'you can leave on your feet or on a gurney.'"},
   {text: "It looks like someone slaughtered an Abercrombie & Fitch catalogue."},
+  {text: "For the last four months occupants of a sleepy village have been picked off by one skilled murderer, claiming approximately one victim per week. A town meeting is called to discuss the recent events, during which most attendees agree they don't really mind what has been going on."},
   #paranormal/unexplained (-38, id 39)
   {text: "I'm a ghost and you’re a ghost hunter"},
   {text: "This ghost led me to you"},
@@ -576,11 +581,6 @@ Prompt.create!([
   {text: "Character A decides to walk across the United States for some reason.  Who do they meet along the way?"},
   {text: "You keep kicking the back of my seat on the plane/train/bus"},
   {text: "We're both stuck in an airplane for the next 14 hours next to a screaming baby and a rowdy toddler. And the mom is doing nothing about it."},
-  #magic (-43, id 44)
-  {text: "Hogwarts"},
-  {text: "Wizard accidentally appears in the wrong house"},
-  {text: "We can’t agree on who loves Harry Potter more"},
-  {text: "Character A, desperate for money to feed their family turns to robbery, only to find that they''ve chosen a wizard as their victim."},
   #family (-44, id 45)
   {text: "You’re my siblings’s best friend and I absolutely hate you but pretend to be my boy/girlfriend to piss off my family"},
   {text: "My new best friend’s sibling is so hot"},
@@ -593,7 +593,7 @@ Prompt.create!([
   {text: "Little kids getting way too caught up in make-believe"},
   {text: "Little league coach and one of the parents fall in love"},
   {text: "THAT IS NOT HOW YOU HOLD A CHILD"},
-  #winter (-45, id 46)
+  #seasons (-45, id 46)
   {text: "We were skiing/snowboarding and got on the same lift and now the lift is stuck"},
   {text: "I'm out shovelling my driveway during/after a blizzard and you glide by on your cross-country skis."},
   {text: "I was having a snowball fight outside and you were casually walking by and oh my god I'm so sorry I accidentally nailed you in the face"},
@@ -603,7 +603,6 @@ Prompt.create!([
   {text: "It was then you realized that hell was winter, and you were in love with it."},
   {text: "Character A is winter and Character B is another season"},
   {text: "We were both working during the holidays but got snowed in at the office"},
-  #spring (-46, id 47)
   {text: "Character A is spring and Character B is another season"},
   {text: "You're an employee at a gardening or landscape store and one of your customers is in the store all of the time asking questions because they have the worst black thumb"},
   {text: "A world where spring has largely negative associations"},
@@ -614,7 +613,6 @@ Prompt.create!([
   {text: "It was raining so hard I wasn’t paying attention as I ran into you but were both drenched now and also hey there."},
   {text: "You turned up at my door sopping wet and I dont know what else to do"},
   {text: "Although 'spring had sprung' the week before, winter now returned with a vengeance."},
-  #summer (-47, id 48)
   {text: "I'm out picking berries with friends and this asshole keeps darting in and taking the juicy ones off of the bush I'm at"},
   {text: "Dude I know we don't know each other but my swim trunks came off when I jumped in the water can you grab them for me"},
   {text: "Country fair kissing booth"},
@@ -629,7 +627,6 @@ Prompt.create!([
   {text: "Not really sure why I agreed to go on this fishing trip but at least the weather's nice?"},
   {text: "You’re relaxing in an easy chair with the fan blowing in your face and an iced drink by your side. The aroma from a nearby barbecue makes your mouth water. In the distance, you hear children splashing in the water and squealing with delight."},
   {text: "I can still see her standing near the shore, a giant tropical printed towel tied under her arms, and her feet buried in the sand."},
-  #fall/autumn (-48, id 49)
   {text: "I got caught staring at my adult neighbour raking up a bunch of leaves in their backyard and jumping into them and now have to awkwardly pretend I saw nothing"},
   {text: "Met at a pumpkin patch fighting over the same perfectly round and picturesque pumpkin"},
   {text: "I ordered a pumpkin spice latte at starbucks and you made a heart with the foam and I decided to drink it here so I can smile at you some more"},
@@ -705,6 +702,12 @@ Prompt.create!([
   #locations (-51, id 52)
   {text: "You stumbled out of the desert onto a road and I just barely avoided hitting you.  You can't remember what happened to you."},
   {text: "An old toy xylophone sits in the Gobi desert. How did it get there?"},
+  {text: "I tripped as I was running on the beach and accidentally got sand all over your ______.  I am so sorry."},
+  {text: "When they say don't swim beyond the buoys, they mean it."},
+  {text: "Lifeguard rescues a swimmer"},
+  {text: "I work at the boardwalk by the beach where you're vacationing."},
+  {text: "You discover a body part washed ashore."},
+  {text: "I ran out of sunscreen.  Can I borrow yours?"},
   #space (-52, id 52, id 53)
   {text: "In space"},
   {text: "Star Trek"},
@@ -736,6 +739,7 @@ Prompt.create!([
   {text: "Humans have just landed on Mars. While everyone is celebrating, NASA receives a radio message from deep space in Morse Code. When translated, it reads: 'Congratulations. Welcome to the neighborhood.'"},
   {text: "You're an astronaut in the not too distant future.  After spending six months in cryosleep in the return home from Mars, you and your small crew wake up in Earth's orbit 10,000 years in the future."},
   {text: "Nuclear testing in the Nevada desert tore a hole In the dimensional rift. Other beings have been trying to come through, you are a soldier in Area 51 preventing these beings from invading the world."},
+  {text: "In 2023, NASA makes headline news: 'First Interstellar Space Probe, Voyager 1, Accelerating Back to Earth'."},
   #woods (-53, id 52, id 54)
   {text: "Both lost on separate hikes and meeting in the woods"},
   {text: "I see you cut through my backyard and into the woods a lot so one day I decided to follow you and it turns out there’s a gorgeous cave back there"},
@@ -747,17 +751,7 @@ Prompt.create!([
   {text: "Getting stoned in the woods sounded like a great idea at first"},
   {text: "In a futuristic society where there are no trees and oxygen is generated artificially and is expensive, you're the guy with a pack of seeds."},
   {text: "After the first snowfall of a year, a man who lives alone in the woods sees a giant set of footprints leading up to his barn."},
-  #beach (-54, id 52, id 55)
-  {text: "I tripped as I was running on the beach and accidentally got sand all over your ______.  I am so sorry."},
-  {text: "When they say don't swim beyond the buoys, they mean it."},
-  {text: "Lifeguard rescues a swimmer"},
-  {text: "I work at the boardwalk by the beach where you're vacationing."},
-  {text: "You discover a body part washed ashore."},
-  {text: "I ran out of sunscreen.  Can I borrow yours?"},
-  #pirate (-55, id 56)
-  {text: "Character A is a Commodore on a mission to capture Character B, one of the most ruthless pirates ever to sail on the seas. But when Character A is caught in a storm and Character B rescues him/her, Character A starts to wonder just how evil Character B really is."},
-  {text: "Character A disguises herself as a man in a pirate crew.  Another pirate discovers her secret."},
-  {text: "Character A disguises herself as a man in a pirate crew.  Another pirate discovers her secret.  Turns out that pirate's a disguised woman too."},
+  {text: "The park is on fire but no one seems to care."},
   #sports/exercise
   {text: "I’m at a climbing gym and I need someone to belay me and hey you look about the right size"},
   {text: "How on earth did we manage to switch shoes at the gym and not notice?"},
