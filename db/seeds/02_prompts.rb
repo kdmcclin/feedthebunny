@@ -19,7 +19,7 @@ Prompt.create!([
   {text: "A group of faeries accidentally make the inhabitants of a small Appalachian town fall in love with each other."},
   {text: "Character A must take over their ailing father’s business—raising dragons that they sell to the world’s wealthiest as pets."},
   {text: "Out catching fireflies on their family’s farm on a hot summer evening, two little girls accidentally capture a fairy instead."},
-  {text: "Hogwarts"},
+  {text: "Hogwarts (or another wizard school)"},
   {text: "Wizard accidentally appears in the wrong house"},
   {text: "We can’t agree on who loves Harry Potter more"},
   {text: "Character A, desperate for money to feed their family turns to robbery, only to find that they've chosen a wizard as their victim."},
