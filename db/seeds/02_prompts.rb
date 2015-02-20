@@ -9,7 +9,7 @@ Prompt.create!([
   {text: "You rubbed my lamp, I am your genie but I kinda suck at using my magic so bear with me here"},
   {text: "We have neighboring farms and you swear that some strange creature keeps attacking your livestock but I think you're crazy"},
   {text: "Wait there's actual verifiable proof that the ________ is real?"},
-  {text: "I started wandering around the woods in a Bigfoot costume as a joke but now everyone things he's real"},
+  {text: "I started wandering around the woods in a Bigfoot costume as a joke but now everyone thinks he's real"},
   {text: "A normally benevolent mythical creature is a scary monster. Or a normally aggressive mythical creature is shy and submissive."},
   {text: "Mythical creatures have started appearing around the world, but they lack the majesty of their story counterparts, and are ruining the ecosystems they enter. You are a mythical rights activist fighting against 'myth culling' laws."},
   {text: "The latest target of an obsessive serial killer turns out to be immortal."},
@@ -31,6 +31,7 @@ Prompt.create!([
   {text: "We're part of a cast for a silly Valentine's Day reality special but I might actually be falling in love with you"},
   {text: "This box of chocolates I bought at the store has no chocolate, just clues left by a serial killer"},
   {text: "You arrive at work to find miscellaneous Valentines strewn all over the floor, and a broken pen placed neatly on your keyboard."},
+  {text: "Told you not to drink the green beer."},
   #Chanukah (-4, id 2, id 3)
   {text: "I accidentally set the kitchen on fire frying things and you are an attractive firefighter."},
   {text: "What do you mean you’ve never played strip dreidel LET ME INTRODUCE YOU TO THIS PERVERSION OF THE GAME"},
@@ -141,6 +142,8 @@ Prompt.create!([
   {text: "Since 'The Fall' the western world has descended into lands ruled by city states. Write about a meeting taking place between two of these rivals."},
   {text: "You are the engineer tasked with building over what remains of Central Park, sometime in the future"},
   {text: "A royal family in Medieval times bunkers down for the storm of the century that they believed was conjured by their enemies."},
+  {text: "WWII: a spy working behind enemy lines in France is forced into a situation where they have to decide to trust a local with their secret"},
+  {text: "For lack of a sheriff two characters have been charged with figuring out why people keep disappearing during a trip on the Oregon Trail"},
   #school (-8, id 8)
   {text: "Our prom dates just ditched us for each other let’s show them what they’re missing out on"},
   {text: "Local teenage delinquent/Head of chastity club"},
@@ -166,6 +169,7 @@ Prompt.create!([
   {text: "Substitute teacher saves the day"},
   {text: "We’re in the same driver’s ed car and I almost crashed because your giggling in the backseat was distracting"},
   {text: "The guy with the locker between ours keeps making out with girls and blocking all three of the lockers and making us late for class"},
+  {text: "We're teenagers trying to get our awesome invention/discovery/creation taken seriously, but only one adult in this whole school thinks that this is anything more than a joke"},
   #college/university/higher ed (-11, id 11)
   {text: "Drama school rivals being cast as romantic opposites because they have “crazy sexual tension” according to their director"},
   {text: "We’re the only ones on campus who didn’t go home for christmas"},
@@ -285,6 +289,7 @@ Prompt.create!([
   {text: "We're the only two people who have been quarantined in this hospital basement, but we've never met before"},
   {text: "When it said 'in case of emergency please break glass' I didn't think that doing so would send me to the emergency room"},
   {text: "Diagnosed with a terminal illness, you live out your bucket list. As your time is running out, you miraculously beat the odds. Now a lot of people have a bone to pick with you."},
+  {text: "In this universe transplant recipients are left with a vague sense of the life/soul/abilities of the person who donated.  These are even stronger if the one who donated is still alive."},
   #superhero (-18, id 18)
   {text: "We’re superheroes that got drunk last night oh god what’d we do"},
   {text: "Waiting behind you in line but ‘excuse you me did I just hear you talking shit about my favorite superhero there SON’"},
@@ -305,6 +310,14 @@ Prompt.create!([
   {text: "A group of superhero kids with disabilities that restricts them from using their power to the fullest."},
   {text: "Two supervillains, each owning half the entire world. As former friends, they have 1 rule. To have a peaceful meal together once a week and talk. Today, one of them has some bad news."},
   {text: "It is your wedding day and should be the best day of your life but right before the ceremony starts you find out that your SO is the super villain you have been fighting for years."},
+  {text: "People celebrate me as a great superhero but really I just keep getting lucky."},
+  {text: "My takedown of that supervillain would have been a lot more impressive if he hadn't tripped and fallen over the edge of the building mid-dramatic monologue.  But hey I'll take the credit."},
+  {text: "Now I see why the cape was a bad idea."},
+  {text: "It is I, your dramatic and egotistical supervillain.  Instead of killing you I am going to give a long winded speech about how--*gets killed mid-sentence*"},
+  {text: "Everyone thinks that I'm the superhero but I'm actually just the sidekick"},
+  {text: "Our friends keep bailing on us so one night we follow them and HOLY SHIT THAT'S WHO'S BEHIND THE MASK?"},
+  {text: "I'm a superhero with no sewing skills whatsoever so how am I supposed to get a cool costume?"},
+  {text: "You found out my big superhero secret.  My costume's just things patched together from post-Halloween sales at the costume store"},
   #parties (-19, id 19)
   {text: "Mutual friends always dragged to the same inane barbecues"},
   {text: "No one at this party knows how to buy wine.  Let’s go on a wine run fellow enthusiast stranger"},
@@ -522,6 +535,8 @@ Prompt.create!([
   {text: "The president’s son discovers ghosts that inhabit the White House, and they’ve got a message for him."},
   {text: "Every night, a man hears music behind his house. When he finally investigates, he discovers a circus in the middle of nowhere that disappears each morning."},
   {text: "You periodically find yourself with the sudden knowledge of when random people around you are going to die, whether soon or years from now."},
+  {text: "All those crop circles that have been appearing around town?  Yeah, that was totally me."},
+  {text: "All those crop circles that have been appearing around town?  Wait you mean that wasn't you?  Well it wasn't me."},
   #music (-39, id 40)
   {text: "I was singing in public and you decided to join in and now we’re singing a dramatic duet together also what’s your number"},
   {text: "We have to sing a duet together but I hate you"},
@@ -769,5 +784,8 @@ Prompt.create!([
   {text: "I saw someone doing amazing tricks in the halfpipe but when you took your helmet off I was surprised to see someone like you"},
   {text: "Next time you hit a golf ball in my direction at least have the decency to yell 'FORE' you obnoxious asshole"},
   {text: "Shirley you joust"},
-  {text: "Character A teases the heck out of character B for putting the bumpers up when bowling, but when their turn comes around they can't hit a thing"}
+  {text: "Character A teases the heck out of character B for putting the bumpers up when bowling, but when their turn comes around they can't hit a thing"},
+  {text: "Character A has the worst attitude towards physical therapy that character B has ever seen in a client/patient"},
+  {text: "You're always giving me shit about the weapon you fence being the only true instrument of skill.  Toss me one, let's go right here"},
+  {text: "We're both here as the extras/substitutes/team managers at this tournament.  Let's find our own fun."}
 ])
