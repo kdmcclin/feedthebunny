@@ -41,5 +41,3 @@ $(function(){
 		})
 	});
 });
-
-		// <%= There are currently ________ prompts within this category.  This may affect the randomness of the prompt.%>
