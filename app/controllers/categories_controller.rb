@@ -12,6 +12,10 @@ class CategoriesController < ApplicationController
 	end
 
 	def get_category_prompts
+		respond_to do |format|
+			format.html { redirect_to category_path(@category) }
+			format.json { render :json => @one_category_prompt = Prompt.order("RANDOM()").first }
+		end
 	end
 
 	private
