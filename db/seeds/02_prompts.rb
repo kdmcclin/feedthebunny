@@ -159,7 +159,7 @@ Prompt.create!([
   {text: "Forced lab partners"},
   {text: "I'm a freshman and the the seniors stole my underwear as a prank.  Do you happen to have an extra bra?"},
   {text: "Hey classmate, I’ll be telling some jokes and puns during my presentation but I’m not sure if anyone will laugh so can I count on you to laugh so I don’t look stupid?"},
-  {text: "Marching band “you’re in the drum section and I play trombone, this is a scandal"},
+  {text: "Marching band: you’re in the drum section and I play trombone, this is a scandal"},
   {text: "Language teachers who compete to see who can make each other more flustered in front of the class in the other language"},
   {text: "I teach your child and we have very important meetings about their education"},
   {text: "The English and Science departments of a small-town high school are bitter archrivals. The new biology teacher, however, doesn’t quite get the memo before his first few days on the job. Shenanigans ensue."},
