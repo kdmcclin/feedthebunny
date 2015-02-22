@@ -17,7 +17,7 @@
 
 $(function(){ 
 	$(document).foundation(); 
-	$(".button").click(function(){
+	$(".prompt button").click(function(){
 		$("#prompt_space").text();
 		$.ajax({
 			type: "GET",
@@ -28,4 +28,18 @@ $(function(){
 			$("#prompt_space").html(response["text"]);
 		})
 	});
+
+	$(".category button").click(function(){
+		$("#category_prompt_space").text();
+		$.ajax({
+			type: "GET",
+			url: "/get_category_prompts",
+			dataType: 'json'
+		}).done(function(response) {
+			console.log(response)
+			$("#category_prompt_space").html(response["text"]);
+		})
+	});
 });
+
+		// <%= There are currently ________ prompts within this category.  This may affect the randomness of the prompt.%>
