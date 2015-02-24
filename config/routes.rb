@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get '/get_prompts' => 'welcome#get_prompts'
 
+  get '/get_category_prompts' => 'categories#get_category_prompts'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
