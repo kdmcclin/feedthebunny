@@ -4,7 +4,9 @@
 	<div class="large-12 columns">
 		<h3><%= @category.label.titlecase%> Sub-Generator</h3>
 		<h4><%= @category.description %></h4>
-		<p>There are currently <b class="prompt-count"><%= @category.prompts.count%></b> prompts in this category.  This make affect the randomness and make it look like prompts aren't being generated.</p>
+		<% if @category.prompts.count < 30 %>
+			<p>There are currently <b class="prompt-count"><%= @category.prompts.count%></b> prompts in this category.  This may affect the randomness and make it look like prompts aren't being generated.</p>
+		<% end %>
 		<div id="cue">
 			<h3>Your prompt is...</h3>
 		</div>
