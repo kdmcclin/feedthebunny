@@ -66,3 +66,7 @@ body {
 .round p {
 	padding-top: 20px;
 }
+
+.prompt-count {
+	font-size: 1.5em;
+}
