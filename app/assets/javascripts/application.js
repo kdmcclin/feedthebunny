@@ -17,7 +17,7 @@
 
 $(function(){ 
 	$(document).foundation(); 
-	$(".prompt button").click(function(){
+	$(".prompt.button").click(function(){
 		$("#prompt_space").text();
 		$.ajax({
 			type: "GET",
@@ -29,15 +29,21 @@ $(function(){
 		})
 	});
 
-	$(".category button").click(function(){
+	$(".category.button").click(function(){
 		$("#category_prompt_space").text();
+		var path = window.location.pathname;
+		var chomp = path.lastIndexOf('/');
+		var id = path.substring(chomp + 1);
 		$.ajax({
 			type: "GET",
 			url: "/get_category_prompts",
-			dataType: 'json'
+			dataType: 'json',
+			data: { "category_id": id }
 		}).done(function(response) {
 			console.log(response)
 			$("#category_prompt_space").html(response["text"]);
 		})
 	});
-});
+});	
+
+// pass id as data to the ajax request
