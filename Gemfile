@@ -47,3 +47,8 @@ group :development, :test do
 end
 
 gem 'simplecov', :require => false, :group => :test
+
+group :test do
+  gem 'capybara'
+  gem 'shoulda-matchers'
+end
