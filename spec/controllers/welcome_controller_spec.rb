@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 describe WelcomeController do
-	render_views
 
 	let!(:prompt) {Prompt.create(text: "All of the history happened.  All of it.")}
 	

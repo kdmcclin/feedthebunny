@@ -1,8 +1,6 @@
 require 'rails_helper'
 
 describe CategoriesController do
-	render_views
-	
 	let!(:category) {Category.create(label: "Historical", description: "This category involves prompts that have a basis in history.")}
 	let!(:category_2) {Category.create(label: "Pirates", description: "This category involves all things pirates.  Arrrrrrrrr!")}
 	let!(:prompt) {Prompt.create(text: "All of the history happened.  All of it.")}
