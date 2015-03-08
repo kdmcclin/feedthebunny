@@ -6,6 +6,8 @@ class CategoriesController < ApplicationController
 		@categories2 = Category.all.where(id: 9..16)
 		@categories3 = Category.all.where(id: 17..24)
 		@categories4 = Category.all.where(id: 25..32)
+		
+		@categories = Category.all
 	end
 
 	def show
