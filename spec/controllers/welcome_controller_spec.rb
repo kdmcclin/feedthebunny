@@ -2,6 +2,8 @@ require 'rails_helper'
 
 describe WelcomeController, :type => :controller do
 
+	render_views
+
 	let!(:prompt) {Prompt.create(text: "All of the history happened.  All of it.")}
 	
 	describe 'GET #index' do
