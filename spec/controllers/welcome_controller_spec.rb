@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe WelcomeController do
+describe WelcomeController, :type => :controller do
 
 	let!(:prompt) {Prompt.create(text: "All of the history happened.  All of it.")}
 	
