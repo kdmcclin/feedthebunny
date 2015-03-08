@@ -43,7 +43,7 @@ gem 'foundation-rails'
 gem 'seed_dump'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-rails'
 end
 
 gem 'simplecov', :require => false, :group => :test
