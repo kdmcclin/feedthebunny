@@ -49,6 +49,6 @@ end
 gem 'simplecov', :require => false, :group => :test
 
 group :test do
-  # gem 'capybara'
+  gem 'capybara'
   gem 'shoulda-matchers'
 end
