@@ -8,7 +8,7 @@ rvm:
   - 2.0.0
 
 before_script:
-  - psql -c 'create database feed-the-bunny_test;' -U postgres
+  - psql -c 'create database feed_the_bunny_test;' -U postgres
 
 script: 'bundle exec rspec spec/'
 
