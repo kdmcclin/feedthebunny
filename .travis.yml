@@ -8,13 +8,12 @@ rvm:
   - 2.0.0
 
 gemfile:
-    - gemfiles/gemfile-travis
+  - gemfiles/gemfile-travis
 
 before_script:
   - psql -c 'create database feed_the_bunny_test;' -U postgres
 
 script: 
-  - RAILS_ENV=test bundle exec rake db:migrate --trace
   - 'rspec'
 
 notifications:
