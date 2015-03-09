@@ -1,4 +1,4 @@
-# Feed the Bunny ![travis-ci-status](https://travis-ci.org/kdmcclin/feedthebunny.svg?branch=master)
+# Feed the Bunny ![travis-ci-status](https://travis-ci.org/kdmcclin/feedthebunny.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/kdmcclin/feedthebunny/badge.svg)](https://coveralls.io/r/kdmcclin/feedthebunny)
 
 ##Visit it on Heroku
 <a href="http://feedthebunny.herokuapp.com/" target="_blank"><img src="http://media.tumblr.com/94b2e1e37201807c3814b6e6367810b5/tumblr_inline_nkasrcuJQX1r2z94x.jpg" alt="App Screenshot"></img></a>
