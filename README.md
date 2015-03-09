@@ -5,7 +5,7 @@
 
 ## Purpose
 
-Feed the Bunny is a simple app that provides short random writing prompts to spark the imagination.  At this stage it provides a random single prompt from any category, but future plans include random prompts from a specific category (e.g.: holiday, drama, poetry) as well as combination prompts.
+Feed the Bunny is a simple app that provides short random writing prompts to spark the imagination.  In its first stage it provided a random single prompt from any category.  Now it includes random prompts from a specific category (e.g.: holiday, drama, poetry).  A possible future stage is being considered to generate combination prompts.
 
 ## Installation
 
