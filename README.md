@@ -1,7 +1,7 @@
 # Feed the Bunny
 
 ##Visit it on Heroku
-<a href="http://feedthebunny.herokuapp.com/"><img src="http://media.tumblr.com/94b2e1e37201807c3814b6e6367810b5/tumblr_inline_nkasrcuJQX1r2z94x.jpg" alt="App Screenshot"></img></a>
+<a href="http://feedthebunny.herokuapp.com/"><img src="http://media.tumblr.com/94b2e1e37201807c3814b6e6367810b5/tumblr_inline_nkasrcuJQX1r2z94x.jpg" alt="App Screenshot" target="_blank"></img></a>
 
 ## Purpose
 
