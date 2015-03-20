@@ -781,5 +781,26 @@ Prompt.create!([
   {text: "Character A teases the heck out of character B for putting the bumpers up when bowling, but when their turn comes around they can't hit a thing"},
   {text: "Character A has the worst attitude towards physical therapy that character B has ever seen in a client/patient"},
   {text: "You're always giving me shit about the weapon you fence being the only true instrument of skill.  Toss me one, let's go right here"},
-  {text: "We're both here as the extras/substitutes/team managers at this tournament.  Let's find our own fun."}
+  {text: "We're both here as the extras/substitutes/team managers at this tournament.  Let's find our own fun."}, 
+  ##end of first round of seeds
+  {text: "We’re all travelling alone and got put in the same row on the plane"},
+  {text: "I’m dating someone but the person I was crushing on in high school has suddenly reappeared"},
+  {text: "So you know how I said I was polyamorous but it hasn't come up in our relationship until now? Well I met someone"},
+  {text: "We all dated the same person and got together to complain about what an asshole they were"},
+  {text: "Morning after a drunken threesome"},
+  {text: "I walked in on the two of you having sex and now I can’t stop thinking about you both"},
+  {text: "I called the wrong number and started talking about my life and you only interrupted me after a few a few minutes of me revealing some pretty personal stuff and now youre invested in my life trouble."},
+  {text: "It's my turn to open up the cafe today and you were sleeping under one of the tables when I came in and I don't know what to say so I'm just sweeping awkwardly around you"},
+  {text: "I'm drunk on public transport and you're high and we both keep looking at each other knowingly"},
+  {text: "You found me in a mall crying over a bowl of noodles I dropped and I swear to god I'm not usually like this I'm just having a really weird week"},
+  {text: "You thought I was someone else and started making out with me at a club and you're really hot so I just went with it and now we're heading back to your place and idk how to break it to you"},
+  {text: "I can’t tell whether this is a date because you asked to see a movie but I’m still not sure you’re queer, and I’m toeing the line because maybe you’re just trying to make friends"},
+  {text: "One of us thinks this is a date but the other thinks it’s an informal job interview"},
+  {text: "I decided to flip a coin about every decision in my life for a week and that’s how we ended up on a date"},
+  {text: "We’re both meant to be going on blind dates with other people but we sat down at the wrong table and got our hopes up"},
+  {text: "I got drunk and sent a sexy naked pic to my ex but I sent it to you instead by mistake"},
+  {text: "We had one really bad date and never spoke again and now our friends have set us up on a blind date"},
+  {text: "You’re a store clerk and oh shit I just spotted my ex please let me hide behind your desk-thing"},
+  {text: "I’m helping my niece’s girl scout troop sell cookies and hell no, fuck off soccer coach, we were here first"},
+  {text: "A toddler broke your nose and I may or may not have snapped my thumb during a very intense game of Mario Kart and now we’re both sitting next to each other in the hospital waiting room"}
 ])

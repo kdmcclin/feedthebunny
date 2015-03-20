@@ -31,4 +31,5 @@ Category.create!([
     {label: "space", description: "This category includes prompts that are space-related."},
     {label: "woods", description: "This category includes prompts that involve the woods or forests."},
   {label: "sports/exercise", description: "This category includes prompts that involve sports and exercise, whether organized or otherwise."}
+  {label: "dating/romance/sex", description: "This category includs prompts that have to do with dating, romance, and/or sex"}
 ])
