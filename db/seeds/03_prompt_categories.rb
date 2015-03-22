@@ -886,5 +886,25 @@ PromptCategory.create!([
   {prompt_id: 768, category_id: 33},
   {prompt_id: 769, category_id: 16},
   {prompt_id: 770, category_id: 18},
-  {prompt_id: 771, category_id: 12}
+  {prompt_id: 771, category_id: 12},
+  {prompt_id: 772, category_id: 33},
+  {prompt_id: 773, category_id: 17},
+  {prompt_id: 774, category_id: 16},
+  {prompt_id: 775, category_id: 27},
+  {prompt_id: 776, category_id: 27},
+  {prompt_id: 777, category_id: 32},
+  {prompt_id: 778, category_id: 16},
+  {prompt_id: 779, category_id: 14},
+  {prompt_id: 780, category_id: 14},
+  ##add existing prompts to romance category
+  {prompt_id: 2, category_id: 33},
+  {prompt_id: 31, category_id: 33},
+  {prompt_id: 146, category_id: 33},
+  {prompt_id: 148, category_id: 33},
+  {prompt_id: 149, category_id: 33},
+  {prompt_id: 240, category_id: 33},
+  {prompt_id: 249, category_id: 33},
+  {prompt_id: 327, category_id: 33},
+  {prompt_id: 328, category_id: 33},
+  {prompt_id: 568, category_id: 33}
 ])

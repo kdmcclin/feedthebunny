@@ -474,7 +474,7 @@ Prompt.create!([
   {text: "We’ve always taken the same elevator to work everyday and we’ve always wanted to say something to each other but have never gotten up the nerve but today the elevator stopped working and we are trapped together"},
   {text: "We’re actors on a show and our characters are dating and all the fans think we are and we’ve denied it for so long that our stubbornness is keeping us from something incredible."},
   {text: "Rescuing their partner from a recon mission gone wrong"},
-  {text: "My new fbi partner/consultant is really hot"},
+  {text: "My new FBI partner/consultant is really hot"},
   {text: "Detective partners"},
   {text: "Police procedural"},
   {text: "We're scientists working in the same narrow field and dammit quit stealing all my ideas"},
@@ -802,5 +802,14 @@ Prompt.create!([
   {text: "We had one really bad date and never spoke again and now our friends have set us up on a blind date"},
   {text: "You’re a store clerk and oh shit I just spotted my ex please let me hide behind your desk-thing"},
   {text: "I’m helping my niece’s girl scout troop sell cookies and hell no, fuck off soccer coach, we were here first"},
-  {text: "A toddler broke your nose and I may or may not have snapped my thumb during a very intense game of Mario Kart and now we’re both sitting next to each other in the hospital waiting room"}
+  {text: "A toddler broke your nose and I may or may not have snapped my thumb during a very intense game of Mario Kart and now we’re both sitting next to each other in the hospital waiting room"},
+  {text: "Hey we hooked up last night and it turns out you are my child's teacher"},
+  {text: "We both play this stupid game online and you keep beating me every single goddamn time so I called you out and you are pretty cute but can you not"},
+  {text: "I'm a bartender and you just came in here without shoes sat down and ordered a chocolate volcano and I don't know what the fuck that is and I'm scared to ask"},
+  {text: "We are neighbours and every night at 3:14 am you start yodeling for no fucking reason.  Why????  Is that you yodeling???  It's been 2 months."},
+  {text: "I woke up this morning to find you sitting in my living room with a goat in a poncho.  Who are you???  Why is the goat wearing a poncho???  How did you get the goat in here I live on the 12th floor???"},
+  {text: "We work out at the same gym and you always look super legit but I know you sing Hannah Montana in the shower and you know I know"},
+  {text: "I'm a cashier and I saw you stuffing you pants full of potatoes and I would stop you but you already have 27 and I want to see how many you can fit"},
+  {text: "It's 4 am and I'm drunk as fuck in a McDonald's and you have been watching my trying to eat this burger for 30 minutes"},
+  {text: "I was playing beer pong with a coin and I accidentally threw it right into your eye at a party"}
 ])
