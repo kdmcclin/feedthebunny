@@ -2,10 +2,10 @@ class CategoriesController < ApplicationController
 	before_action :get_category, only: :show
 
 	def index
-		@categories1 = Category.all.where(id: 1..8)
-		@categories2 = Category.all.where(id: 9..16)
-		@categories3 = Category.all.where(id: 17..24)
-		@categories4 = Category.all.where(id: 25..33)
+		@categories1 = Category.all.where(id: 1..9)
+		@categories2 = Category.all.where(id: 10..17)
+		@categories3 = Category.all.where(id: 18..25)
+		@categories4 = Category.all.where(id: 26..33)
 		
 		@categories = Category.all
 	end
