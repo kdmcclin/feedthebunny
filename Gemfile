@@ -38,7 +38,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'tzinfo'
 
-gem 'foundation-rails'
+gem 'foundation-rails', '5.4.5'
 
 gem 'seed_dump'
 
