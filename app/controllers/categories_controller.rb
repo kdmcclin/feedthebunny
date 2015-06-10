@@ -5,7 +5,7 @@ class CategoriesController < ApplicationController
 		@categories1 = Category.all.where(id: 1..9)
 		@categories2 = Category.all.where(id: 10..17)
 		@categories3 = Category.all.where(id: 18..25)
-		@categories4 = Category.all.where(id: 26..33)
+		@categories4 = Category.all.where(id: 26..34)
 		
 		@categories = Category.all
 	end
