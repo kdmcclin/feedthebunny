@@ -934,7 +934,7 @@ PromptCategory.create!([
   {prompt_id: 799, category_id: 7},
   {prompt_id: 800, category_id: 27},
   {prompt_id: 801, category_id: 18},
-  {prompt_id: 802, category_id: 19}
+  {prompt_id: 802, category_id: 19},
   {prompt_id: 802, category_id: 21},
   {prompt_id: 803, category_id: 27},
   {prompt_id: 804, category_id: 24},
