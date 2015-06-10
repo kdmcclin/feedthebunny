@@ -868,11 +868,11 @@ Prompt.create!([
   {text: "On a road trip traveling to super crowded cities and taking a couple of days off just to enjoy the feeling of being lost.  Driving down winding country roads and opening all the windows because it's like being found."},
   {text: "On a road trip staying in shitty motels.  The kind of creepy-not-quite-real aesthetic of neon lights and soft linen and staying awake all night listening to the other person breathe."},
   {text: "Car karaoke.  Someone probably owns the complete collection of Disney cds.  They probably take it very seriously."},
-  {text: "Characters who keep making more and more detours because they want it to last forever even though it can't."},
+  {text: "Characters on a road trip who keep making more and more detours because they want it to last forever even though it can't."},
   {text: "A road trip scenario where the characters trade off seats during the night and the driver keeps looking at their sleeping companion and getting distracted because of the way the moonlight bounces off of their face."},
   {text: "You just came in with a CV and I should probably give it a thorough reading but on the other hand if I hire you right now I can stare at your face every day."},
   {text: "You’re meeting your friends in my coffee shop and you just walked in 15 minutes late with Starbucks what the fuck bro."},
-  {text: "This is america and your cute english friend just ordered tea um shit shit shit I think we have some tea in the back maybe how do I make tea shit."},
+  {text: "This is America and your cute English friend just ordered tea um shit shit shit I think we have some tea in the back maybe how do I make tea shit."},
   {text: "I know you're lactose intolerant but my arsehole coworker just gave you cow's milk gimme a mo while I punch him in the face."},
   {text: "That combination of flavours sounds disgusting why do you order it every single - holy shit that's amazing."},
   {text: "Starbucks is shut and I need my coffee fix maybe I’ll try the little indie place which has opened up."},
@@ -921,5 +921,6 @@ Prompt.create!([
   {text: "We take the same elevator every day and due to a misunderstanding I assumed you didn't speak English and I've been talking to my friend about how hot you are for three weeks and apparently my friend has known from the start but you agreed not to tell me because you both think it's hilarious what the fuck."},
   {text: "I accidentally dropped you while you were crowd surfing and you broke your ankle and now I feel responsible so I'm carrying you out of the moshpit."},
   {text: "I walked into the public bathroom at a McDonalds and you're dangling halfway out of an air vent do I even want to know what you were doing?"},
-  {text: "I found you on the roof of my house passed out with a black eye holding a fire extinguisher"}
+  {text: "I found you on the roof of my house passed out with a black eye holding a fire extinguisher."}
+  ##end of third round of seeds
 ])
