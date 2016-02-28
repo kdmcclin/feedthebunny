@@ -24,15 +24,15 @@ li {
 }
 
 a {
-	color: #166CEC;
-}
-
-a:hover{
-	color: #B5C6E0;
+	color: #8baad8;
 }
 
 a:visited {
-	color: #36465D;
+	color: #624e9a;
+}
+
+a:hover{
+	color: #166cec;
 }
 
 body {
