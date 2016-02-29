@@ -5,7 +5,7 @@ language: ruby
 # before_install: gem install bundler
 
 rvm:
-  - 2.0.0
+  - 2.2.4
 
 gemfile:
   - gemfiles/gemfile-travis
