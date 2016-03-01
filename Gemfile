@@ -50,7 +50,7 @@ gem 'simplecov', :require => false, :group => :test
 
 group :test do
   gem 'capybara'
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', '~> 3.1'
 end
 
 gem 'coveralls', require: false
