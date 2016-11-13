@@ -1,5 +1,5 @@
 Category.create!([
-  {label: "mythical creatures", description: "This category includes prompts that involve magic and/or mythical creatures of some sort."},
+  {label: "magic/mythical creatures", description: "This category includes prompts that involve magic and/or mythical creatures of some sort."},
   {label: "holidays", description: "This category includes prompts for all kinds of holidays."},
     {label: "Chanukah", description: "This category includes Chanukah-related prompts."},
     {label: "Christmas", description: "This category includes Christmas-related prompts."},
