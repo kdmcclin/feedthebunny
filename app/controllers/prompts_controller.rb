@@ -10,7 +10,6 @@ class PromptsController < ApplicationController
 
   def new
     @prompt = Prompt.new
-    @prompt.prompt_categories.build
   end
 
   def create
@@ -40,6 +39,6 @@ class PromptsController < ApplicationController
   end
 
   def prompt_params
-    params.require(:prompt).permit(:text, prompt_categories_attributes: {:category_id => [:id, :_destroy]})
+    params.require(:prompt).permit(:text, category_ids: [])
   end
 end

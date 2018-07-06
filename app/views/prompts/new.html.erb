@@ -8,9 +8,7 @@
       <%= f.label "What is the text of the prompt?"%>
       <%= f.text_area :text %>
       
-      <%= f.fields_for :prompt_categories do |ff|%>
-        <%= ff.collection_check_boxes :category_id, Category.all, :id, :label %>
-      <% end %>
+      <%= f.collection_check_boxes(:category_ids, Category.order('lower(label) ASC'), :id, :label) %>
       <br>
       <%= f.submit "Create", :class => 'category button round' %>
     <% end %>
