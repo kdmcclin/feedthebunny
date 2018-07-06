@@ -1,0 +1,9 @@
+<%= form_for @prompt do |f|%>
+  <%= f.label "What is the text of the prompt?"%>
+  <%= f.text_area :text %>
+  <div class="input-group">
+    <%= f.collection_check_boxes(:category_ids, Category.order('lower(label) ASC'), :id, :label) %>
+  </div>
+  <br>
+  <%= f.submit ( f.object.new_record? ? "Create" : "Update"), :class => 'category button round' %>
+<% end %>

@@ -43,7 +43,7 @@ body {
 	text-align: center;
 }
 
-#prompt_space, #category_prompt_space{
+#prompt_space, #category_prompt_space, .space{
 	background-color: rgba(21, 106, 235, .2);
 	border-radius: 10px;
 	margin-bottom: 10px;
@@ -81,6 +81,14 @@ body {
 
 .home a:hover{
 	color: #36465D;
+}
+
+label{
+	font-size: 1.05rem;
+}
+
+.prompt-links {
+	margin-top: 3%;
 }
 
 footer {

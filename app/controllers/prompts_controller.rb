@@ -5,7 +5,6 @@ class PromptsController < ApplicationController
   end
 
   def show
-    #show prompt after creation to check that it's okay
   end
 
   def new
@@ -16,7 +15,7 @@ class PromptsController < ApplicationController
     @prompt = Prompt.create(prompt_params) 
 
     if @prompt.save
-      redirect_to new_prompt_path
+      redirect_to prompt_path(@prompt)
     else
       flash[:error] = "Please make sure that all fields are filled out."
       render :action => "new"
@@ -27,6 +26,12 @@ class PromptsController < ApplicationController
   end
 
   def update
+    if @prompt.update_attributes(prompt_params)
+      redirect_to prompt_path(@prompt)
+    else
+      flash[:error] = "Please make sure that all fields are filled out."
+      render :action => "edit"
+    end
   end
 
   def destroy

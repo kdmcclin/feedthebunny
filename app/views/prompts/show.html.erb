@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="large-12 columns">
+    <h3>This prompt is:</h3>
+    <p class="space"><%= @prompt.text %></div>
+
+    <h3>Its categories:</h3>
+    <% @prompt.categories.each do |c| %>
+      <li><%= c.label %></li>
+    <% end %>
+
+    <div class="prompt-links">
+      <%= link_to 'Edit', edit_prompt_path(@prompt)%>
+      <%= link_to 'New', new_prompt_path%>
+    </div>
+  </div>
+</div>
