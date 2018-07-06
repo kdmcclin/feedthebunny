@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="large-12 columns">
+    <div class="error">
+      <%=flash[:error]%>
+      <br>
+    </div>
+    <%= form_for @prompt do |f|%>
+      <%= f.label "What is the text of the prompt?"%>
+      <%= f.text_area :text %>
+      
+      <%= f.fields_for :prompt_categories do |ff|%>
+        <%= ff.collection_check_boxes :category_id, Category.all, :id, :label %>
+      <% end %>
+      <br>
+      <%= f.submit "Create", :class => 'category button round' %>
+    <% end %>
+  </div>
+</div>

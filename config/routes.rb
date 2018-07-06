@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   get '/get_category_prompts' => 'categories#get_category_prompts'
 
+  resources :prompts
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
