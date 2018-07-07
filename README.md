@@ -35,3 +35,4 @@ rails s
 * Add database backups
 * Upgrade foundation for new styling
 * Upgrade rails for security vulnerabilities
+* Upgrade Heroku stack
