@@ -35,6 +35,8 @@ class PromptsController < ApplicationController
   end
 
   def destroy
+    @prompt.destroy
+    redirect_to new_prompt_path
   end
 
   private
