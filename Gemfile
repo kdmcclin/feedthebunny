@@ -44,6 +44,7 @@ gem 'seed_dump'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'dotenv-rails'
 end
 
 gem 'simplecov', :require => false, :group => :test
