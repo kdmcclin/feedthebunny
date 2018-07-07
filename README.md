@@ -32,7 +32,9 @@ rails s
 ## Future Plans
 * Add non-fiction writing prompts
 * Add admin ability to create new categories in production
+    - Add an art category
 * Add database backups
 * Upgrade foundation for new styling
 * Upgrade rails for security vulnerabilities
+* Add check for similar prompt when creating a new one
 * Upgrade Heroku stack
