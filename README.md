@@ -35,8 +35,6 @@ rails s
     - Add an art category
 * Add database backups
 * Alphabetically sort category index list
-* Upgrade foundation for new styling
-* Upgrade rails for security vulnerabilities
 * Add check for similar prompt when creating a new one
 * Upgrade Heroku stack
 * Improve test coverage

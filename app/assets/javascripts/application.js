@@ -47,3 +47,4 @@ $(function(){
 });	
 
 // pass id as data to the ajax request
+$(function(){ $(document).foundation(); });

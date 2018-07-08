@@ -7,7 +7,7 @@
     <title><%= content_for?(:title) ? yield(:title) : "Feed the Bunny" %></title>
 
     <%= stylesheet_link_tag    "application" %>
-    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
     <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
   </head>
@@ -22,8 +22,8 @@
   </header>
   
   <body>
-		<%= yield %>
-   	<%= javascript_include_tag "application" %>
+    <%= yield %>
+    <%= javascript_include_tag "application" %>
   </body>
 
   <footer> <p>Feel free to submit prompts for inclusion in this app to my <a href="https://goo.gl/forms/X8vYkYMFKRVoisjU2" target="_blank">Google Form</a> for this app.</p>
