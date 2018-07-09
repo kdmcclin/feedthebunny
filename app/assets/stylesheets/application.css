@@ -58,17 +58,17 @@ body {
 	background-color: rgba(21, 106, 235, .2) !important;
 }
 
-.button {
-	background-color: rgba(21, 106, 235, .2) !important;
-}
-
 .button p {
 	padding-top: 20px;
 	color: black !important;
 }
 
-.round p {
-	padding-top: 20px;
+.round {
+	border-radius: 10px;
+	margin-bottom: 10px;
+	p {
+		padding-top: 20px;
+	}
 }
 
 .prompt-count {
