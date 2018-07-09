@@ -1,22 +1,22 @@
 <div class="grid-container">
   <h3>Select from one of these categories for category-specific prompts.</h3>
   <div class="grid-x">
-		<div class="cell small-3">
+		<div class="cell medium-3 small-12">
 			<% @categories1.each do |category| %>
 				<li><%= link_to category.label, category_path(category)%></li>
 			<% end %>
 		</div>
-		<div class="cell small-3">
+		<div class="cell medium-3 small-12">
 			<% @categories2.each do |category| %>
 				<li><%= link_to category.label, category_path(category)%></li>
 			<% end %>
 		</div>
-		<div class="cell small-3">
+		<div class="cell medium-3 small-12">
 			<% @categories3.each do |category| %>
 				<li><%= link_to category.label, category_path(category)%></li>
 			<% end %>
 		</div>
-		<div class="cell small-3">
+		<div class="cell medium-3 small-12">
 			<% @categories4.each do |category| %>
 				<li><%= link_to category.label, category_path(category)%></li>
 			<% end %>
