@@ -38,7 +38,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'tzinfo'
 
-gem 'foundation-rails', '6.1.1.0'
+gem 'foundation-rails'
 gem 'autoprefixer-rails'
 
 gem 'seed_dump'

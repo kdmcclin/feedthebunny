@@ -15,7 +15,7 @@
  *= require foundation_and_overrides
  */
 
-.row {
+.grid-container {
 	text-align: center;
 }
 
@@ -54,13 +54,17 @@ body {
 	margin-top: 1em;
 }
 
+#prompt_button, #category_prompt_button {
+	margin-top: 20px;
+}
+
 .button {
-	background-color: rgba(21, 106, 235, .2) !important;
+	background-color: rgba(21, 106, 235, .2);
 }
 
 .button p {
 	padding-top: 20px;
-	color: black !important;
+	color: black;
 }
 
 .round {
@@ -93,7 +97,7 @@ label{
 
 footer {
 	text-align: center;
-	margin-top: 1%;
+	margin-top: 3%;
 }
 
 @media(max-width:768px){
