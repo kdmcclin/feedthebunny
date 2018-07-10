@@ -58,6 +58,16 @@ body {
 	margin-top: 20px;
 }
 
+#collection_of_checkboxes {
+	max-width: 90%;
+	margin: auto;
+}
+
+.checkbox_label {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
 .button {
 	background-color: rgba(21, 106, 235, .2);
 }
@@ -87,7 +97,7 @@ body {
 	color: #36465D;
 }
 
-label{
+label {
 	font-size: 1.05rem;
 }
 
@@ -103,5 +113,14 @@ footer {
 @media(max-width:768px){
 	footer {
 		margin: 25px 10px 0 10px;
+	}
+
+	#collection_of_checkboxes {
+		max-width: 100%;
+		margin: none;
+	}
+
+	.checkbox_label {
+		display: block;
 	}
 }
