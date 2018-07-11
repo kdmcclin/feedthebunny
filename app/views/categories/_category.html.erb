@@ -1,0 +1,9 @@
+<%= form_for @category do |f|%>
+  <%= f.label "What is the name of this category?"%>
+  <%= f.text_area :label %>
+  <br>
+  <%= f.label "What kind of prompts does this category contain?"%>
+  <%= f.text_area :description %>
+  <br>
+  <%= f.submit ( f.object.new_record? ? "Create" : "Update"), :class => 'category button round' %>
+<% end %>

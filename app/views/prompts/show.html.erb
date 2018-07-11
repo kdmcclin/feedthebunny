@@ -8,7 +8,7 @@
       <li><%= c.label %></li>
     <% end %>
 
-    <div class="prompt-links">
+    <div class="edit-links">
       <%= link_to 'Edit', edit_prompt_path(@prompt)%>
       <%= link_to 'New', new_prompt_path%>
       <%= link_to 'Delete', @prompt, method: :delete, action: 'destroy'  %>

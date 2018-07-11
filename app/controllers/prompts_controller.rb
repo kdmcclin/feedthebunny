@@ -1,5 +1,5 @@
 class PromptsController < ApplicationController
-  before_filter :authenticate
+  before_action :authenticate
   before_action :get_prompt, only: [:show, :edit, :update, :destroy]
 
   def index
@@ -48,11 +48,5 @@ class PromptsController < ApplicationController
 
   def prompt_params
     params.require(:prompt).permit(:text, category_ids: [])
-  end
-
-  def authenticate
-    login = authenticate_or_request_with_http_basic do |username, password|
-      username == ENV.fetch("ADMIN_NAME") && Digest::SHA1.hexdigest(password) == ENV.fetch("ADMIN_PASSWORD")
-    end
   end
 end
