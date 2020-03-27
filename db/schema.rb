@@ -16,21 +16,21 @@ ActiveRecord::Schema.define(version: 20141214231023) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "categories", force: true do |t|
+  create_table "categories", force: :cascade do |t|
     t.string   "label"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "prompt_categories", force: true do |t|
+  create_table "prompt_categories", force: :cascade do |t|
     t.integer  "prompt_id"
     t.integer  "category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "prompts", force: true do |t|
+  create_table "prompts", force: :cascade do |t|
     t.text     "text"
     t.datetime "created_at"
     t.datetime "updated_at"
