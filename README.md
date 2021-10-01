@@ -7,8 +7,6 @@
 
 Feed the Bunny is a simple app that provides short random writing prompts to spark the imagination.  In its first stage it provided a random single prompt from any category.  Now it includes random prompts from a specific category (e.g.: holiday, drama, poetry).
 
-If you want to contribute prompts to the app, please use the Google Forms link provided in the footer.
-
 ## Installation
 
 Feed the Bunny has a Rails backend.  To set up:
